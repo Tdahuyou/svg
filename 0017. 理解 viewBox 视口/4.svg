@@ -1,0 +1,8 @@
+<!--
+想要解决上述圆形看不到的问题，可以通过设置 viewBox 来解决。
+我们只需要将 viewBox 设置为包含圆形的矩形即可。
+viewBox 决定了我们想要展示给用户看的那块坐标区域。
+-->
+<svg width="500" height="500" viewBox="-200 -200 200 200" xmlns="http://www.w3.org/2000/svg"  style="margin: 2rem; border: 1px solid">
+  <circle cx="-100" cy="-100" r="100" fill="red" />
+</svg>

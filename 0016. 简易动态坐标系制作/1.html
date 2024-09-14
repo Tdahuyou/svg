@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>动态坐标系</title>
+    <style>
+      svg {
+        border: 1px solid #666;
+      }
+    </style>
+  </head>
+  <body>
+    <svg id="svg" width="500" height="500"></svg>
+    <svg id="svg1" width="500" height="500"></svg>
+    <svg id="svg2" width="500" height="500"></svg>
+    <script src="./1.js"></script>
+    <script>
+      draw({ id: '#svg', color: 'gray', yAxis: false })
+      draw({ id: '#svg1', color: 'gray', yAxis: false, xAxis: false })
+      draw({ id: '#svg2', color: 'gray', title: '网格', titleColor: 'red' })
+    </script>
+  </body>
+</html>

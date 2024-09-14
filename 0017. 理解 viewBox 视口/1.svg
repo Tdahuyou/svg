@@ -1,0 +1,26 @@
+<!--
+svg 的坐标系是隐式的，是无限大的。
+
+svg 的 width、height 属性，决定了页面上最终渲染的 svg 的宽度和高度。
+
+viewbox 属性，决定了展示给用户的 svg 坐标系区域。
+viewbox 的值是一个矩形，由 4 个值组成，分别是 x、y、width、height。
+x、y 是坐标系的起点，width、height 是坐标系的宽高。
+
+如果只设置了 svg 的 width 和 height，但没有设置 viewbox，则 viewbox 默认为 0 0 width height。
+
+如果 viewBox 的 width、height 和 svg 的 width、height 不一致，则用户看到的图形将会进行缩放。
+-->
+
+<!--
+在没有设置 viewBox 的情况下，显示的视口区域是 0 0 width height
+图形比例按照 1:1 来显示
+-->
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" style="margin: 2rem; border: 1px solid">
+  <circle cx="100" cy="100" r="100" fill="red" />
+</svg>
+<!--
+style="margin: 2rem; border: 1px solid"
+添加 margin 仅仅是为了方便截图
+设置 border 是为了能够更加直观地了解到绘制的图形在界面上显示的相对大小
+-->

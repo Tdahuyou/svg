@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>折线图</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <svg id="svg">
+      <!-- 绘制左侧的数值 分5份，设置6个数值 -->
+      <g class="y-text">
+        <text x="20" y="225">0</text>
+        <text x="20" y="185">40</text>
+        <text x="20" y="145">80</text>
+        <text x="20" y="105">120</text>
+        <text x="20" y="65">160</text>
+        <text x="20" y="25">200</text>
+      </g>
+
+      <!-- 绘制底部小线段 7段，8个线 200/7=28.5 -->
+      <g class="x-line">
+        <path
+          d="M25 225V230 M53.5 225V230 M82 225V230 M110.5 225V230
+             M139 225V230 M167.5 225V230 M196 225V230 M225 225V230"
+        />
+      </g>
+
+      <!-- 绘制底部的文字 28.5/2=14.25 -->
+      <g class="x-text">
+        <text x="39" y="235">周一</text>
+        <text x="67.5" y="235">周二</text>
+        <text x="96" y="235">周三</text>
+        <text x="124.5" y="235">周四</text>
+        <text x="153" y="235">周五</text>
+        <text x="181.5" y="235">周六</text>
+        <text x="210" y="235">周日</text>
+      </g>
+
+      <!-- 绘制数据圆点 -->
+      <g class="data-circle">
+        <circle cx="39" cy="125" />
+        <circle cx="67.5" cy="25" />
+        <circle cx="96" cy="175" />
+        <circle cx="124.5" cy="200" />
+        <circle cx="153" cy="150" />
+        <circle cx="181.5" cy="140" />
+        <circle cx="210" cy="80" />
+      </g>
+
+      <!-- 绘制圆点间的折线 -->
+      <polyline
+        class="data-line"
+        points="39 125,67.5 25,96 175,124.5 200,153 150,181.5 140,210 80"
+      ></polyline>
+    </svg>
+
+    <script src="draw.js"></script>
+    <script>
+      draw({
+        title: 'svg 视频周播放量（天）',
+        id: '#svg',
+        yAxis: false,
+        color: '#abf',
+      })
+    </script>
+  </body>
+</html>

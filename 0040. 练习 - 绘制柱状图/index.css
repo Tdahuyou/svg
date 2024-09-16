@@ -1,0 +1,29 @@
+#svg {
+  width: 500px;
+  height: 500px;
+}
+
+.pillar {
+  fill: #5b79d6;
+}
+
+.pillar rect:hover {
+  cursor: pointer;
+  fill: #5c7db9;
+}
+
+.pillar rect.bg {
+  fill: #ddd;
+  opacity: 0.8;
+}
+
+#data-panel {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 0;
+}

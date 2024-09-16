@@ -1,0 +1,35 @@
+#svg {
+  width: 500px;
+  height: 500px;
+  border: 1px solid #ccc;
+}
+
+.part {
+  cursor: pointer;
+}
+
+.part polyline {
+  fill: none;
+  stroke-width: 1px;
+}
+
+.part text {
+  font-size: 8px;
+  fill: #999;
+}
+
+.part text.left {
+  text-anchor: end;
+}
+
+#data-panel {
+  padding: 5px 10px;
+  font-size: 8px;
+  background-color: #fff;
+  border: 1px solid #999;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}

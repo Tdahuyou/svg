@@ -1,0 +1,84 @@
+<!--
+A（Arc）这个命令用于绘制弧线。
+
+弧线命令的参数格式为 A rx ry x-axis-rotation large-arc-flag sweep-flag x y
+
+rx 和 ry：这是弧的椭圆形半径，分别为水平半径和垂直半径。
+
+x-axis-rotation：弧所在椭圆的旋转角度，以度为单位。
+
+large-arc-flag：这个标志指定绘制大弧还是小弧。
+  如果设为 1，则表示绘制大弧；
+  如果设为 0，则表示绘制小弧；
+
+sweep-flag：这个标志控制弧的绘制方向。
+  如果是 0，表示按逆时针方向绘制；
+  如果是 1，表示按顺时针方向绘制；
+
+x 和 y：这是弧的终点坐标。
+
+d="M30 50 A15 15 0 0 0 60 50"
+表示从点 (30, 50) 开始，绘制一个半径为 15 的逆时针方向的小弧，结束于点 (60, 50)。
+
+d="M30 50 A15 15 0 0 1 60 50"
+表示从点 (30, 50) 开始，绘制一个半径为 15 的顺时针方向的小弧，结束于点 (60, 50)。
+  -->
+<svg style="margin: 3rem;" width="500px" height="500px" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <g font-size="4" stroke="lightgray" stroke-width=".1">
+    <!-- 纵向网格线 -->
+    <line x1="0" y1="0" x2="0" y2="100" />
+    <line x1="10" y1="0" x2="10" y2="100" />
+    <line x1="20" y1="0" x2="20" y2="100" />
+    <line x1="30" y1="0" x2="30" y2="100" />
+    <line x1="40" y1="0" x2="40" y2="100" />
+    <line x1="50" y1="0" x2="50" y2="100" />
+    <line x1="60" y1="0" x2="60" y2="100" />
+    <line x1="70" y1="0" x2="70" y2="100" />
+    <line x1="80" y1="0" x2="80" y2="100" />
+    <line x1="90" y1="0" x2="90" y2="100" />
+    <line x1="100" y1="0" x2="100" y2="100" />
+
+    <!-- 横向网格线 -->
+    <line x1="0" y1="0" x2="100" y2="0" />
+    <line x1="0" y1="10" x2="100" y2="10" />
+    <line x1="0" y1="20" x2="100" y2="20" />
+    <line x1="0" y1="30" x2="100" y2="30" />
+    <line x1="0" y1="40" x2="100" y2="40" />
+    <line x1="0" y1="50" x2="100" y2="50" />
+    <line x1="0" y1="60" x2="100" y2="60" />
+    <line x1="0" y1="70" x2="100" y2="70" />
+    <line x1="0" y1="80" x2="100" y2="80" />
+    <line x1="0" y1="90" x2="100" y2="90" />
+    <line x1="0" y1="100" x2="100" y2="100" />
+
+    <!-- 纵向刻度值 -->
+    <text x="0" y="4" fill="black">0</text>
+    <text x="0" y="11" fill="black">10</text>
+    <text x="0" y="21" fill="black">20</text>
+    <text x="0" y="31" fill="black">30</text>
+    <text x="0" y="41" fill="black">40</text>
+    <text x="0" y="51" fill="black">50</text>
+    <text x="0" y="61" fill="black">60</text>
+    <text x="0" y="71" fill="black">70</text>
+    <text x="0" y="81" fill="black">80</text>
+    <text x="0" y="91" fill="black">90</text>
+    <text x="0" y="101" fill="black">100</text>
+
+    <!-- 横向刻度线 -->
+    <text x="8" y="4" fill="black">10</text>
+    <text x="18" y="4" fill="black">20</text>
+    <text x="28" y="4" fill="black">30</text>
+    <text x="38" y="4" fill="black">40</text>
+    <text x="48" y="4" fill="black">50</text>
+    <text x="58" y="4" fill="black">60</text>
+    <text x="68" y="4" fill="black">70</text>
+    <text x="78" y="4" fill="black">80</text>
+    <text x="88" y="4" fill="black">90</text>
+    <text x="98" y="4" fill="black">100</text>
+  </g>
+  <path d="M 30 50 A 15 15 0 0 1 60 50" fill="none" stroke="blue" stroke-width="1" />
+  <path d="M 30 50 A 15 15 0 0 0 60 50" fill="none" stroke="orange" stroke-width="1" />
+
+  <circle cx="30" cy="50" r="1" fill="red" />
+  <circle cx="60" cy="50" r="1" fill="red" />
+</svg>

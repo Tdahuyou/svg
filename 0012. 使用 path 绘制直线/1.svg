@@ -1,0 +1,79 @@
+<!--
+<path> 根据点连接，绘制各种图形。
+
+能够绘制直线（线段、折线、矩形、多边形这些都是直线）
+能够绘制曲线（贝塞尔曲线，弧线）。
+
+<path> 的 d 属性 ≈ 折线 <polyline> 中的 points 属性
+<path> 的 d 属性 ≈ 多边形 <polygon> 中的 points 属性
+都是用来设置多个坐标点的。
+
+直线相关的关键字：M/m、L/l
+
+M/m（Move To）
+移动到指定的坐标点，设置笔触所在的起始位置（要从哪个坐标位置开始画）。
+
+L/l（Line To）
+从当前坐标点到指定的坐标点绘制直线。
+-->
+<svg style="margin: 3rem;" width="500px" height="500px" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <g font-size="4" stroke="lightgray" stroke-width=".1">
+    <!-- 纵向网格线 -->
+    <line x1="0" y1="0" x2="0" y2="100" />
+    <line x1="10" y1="0" x2="10" y2="100" />
+    <line x1="20" y1="0" x2="20" y2="100" />
+    <line x1="30" y1="0" x2="30" y2="100" />
+    <line x1="40" y1="0" x2="40" y2="100" />
+    <line x1="50" y1="0" x2="50" y2="100" />
+    <line x1="60" y1="0" x2="60" y2="100" />
+    <line x1="70" y1="0" x2="70" y2="100" />
+    <line x1="80" y1="0" x2="80" y2="100" />
+    <line x1="90" y1="0" x2="90" y2="100" />
+    <line x1="100" y1="0" x2="100" y2="100" />
+
+    <!-- 横向网格线 -->
+    <line x1="0" y1="0" x2="100" y2="0" />
+    <line x1="0" y1="10" x2="100" y2="10" />
+    <line x1="0" y1="20" x2="100" y2="20" />
+    <line x1="0" y1="30" x2="100" y2="30" />
+    <line x1="0" y1="40" x2="100" y2="40" />
+    <line x1="0" y1="50" x2="100" y2="50" />
+    <line x1="0" y1="60" x2="100" y2="60" />
+    <line x1="0" y1="70" x2="100" y2="70" />
+    <line x1="0" y1="80" x2="100" y2="80" />
+    <line x1="0" y1="90" x2="100" y2="90" />
+    <line x1="0" y1="100" x2="100" y2="100" />
+
+    <!-- 纵向刻度值 -->
+    <text x="0" y="4" fill="black">0</text>
+    <text x="0" y="11" fill="black">10</text>
+    <text x="0" y="21" fill="black">20</text>
+    <text x="0" y="31" fill="black">30</text>
+    <text x="0" y="41" fill="black">40</text>
+    <text x="0" y="51" fill="black">50</text>
+    <text x="0" y="61" fill="black">60</text>
+    <text x="0" y="71" fill="black">70</text>
+    <text x="0" y="81" fill="black">80</text>
+    <text x="0" y="91" fill="black">90</text>
+    <text x="0" y="101" fill="black">100</text>
+
+    <!-- 横向刻度线 -->
+    <text x="8" y="4" fill="black">10</text>
+    <text x="18" y="4" fill="black">20</text>
+    <text x="28" y="4" fill="black">30</text>
+    <text x="38" y="4" fill="black">40</text>
+    <text x="48" y="4" fill="black">50</text>
+    <text x="58" y="4" fill="black">60</text>
+    <text x="68" y="4" fill="black">70</text>
+    <text x="78" y="4" fill="black">80</text>
+    <text x="88" y="4" fill="black">90</text>
+    <text x="98" y="4" fill="black">100</text>
+  </g>
+  <path d="M30 30 L60 30" fill="none" stroke="blue" stroke-width="2" />
+  <line x1="30" y1="40" x2="60" y2="40" stroke="green" stroke-width="2" />
+  <polyline points="30 50,60 50" stroke="red" stroke-width="2" />
+  <!--
+  上面这 3 种写法都可以绘制直线。
+  由此可见，其实在 svg 中，想要绘制某种图形，写法并不是唯一的。
+  -->
+</svg>

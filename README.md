@@ -1,5 +1,0 @@
-# svg
-
-## 📝 summary
-
-svg notes

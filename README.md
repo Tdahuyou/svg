@@ -10,6 +10,7 @@
   - [6. 复用](#6-复用)
   - [7. svg 与 js、html、css 的结合](#7-svg-与-jshtmlcss-的结合)
   - [8. 练习](#8-练习)
+  - [9. ⏰ 待分组](#9--待分组)
 <!-- endregion:toc -->
 
 ## 1. svg 在线免费教程
@@ -336,4 +337,17 @@
   <!-- region:toc -->
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0041.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md#1--notes)
   <!-- endregion:toc -->
+  
+
+## 9. ⏰ 待分组
+
+- [ ] [0046. 理解 svg 的 xmlns 属性](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md) <!-- [locale](./0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md) -->  
+  <!-- region:toc -->
+  - [1. 🔗 菜鸟教程 - xml 命名空间](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#1--菜鸟教程---xml-命名空间)
+  - [2. 💻 demos.1 - 带有命名空间 `xmlns="http://www.w3.org/2000/svg"`](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#2--demos1---带有命名空间-xmlns="httpwwww3org2000svg")
+  - [3. 💻 demos.2 - 不带命名空间 `xmlns="http://www.w3.org/2000/svg"`](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#3--demos2---不带命名空间-xmlns="httpwwww3org2000svg")
+  - [4. 📒 结果分析](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#4--结果分析)
+  - [5. 💻 demos.3 - 在 html 中嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#5--demos3---在-html-中嵌入-svg)
+  <!-- endregion:toc -->
+  - 要求在 100*100 的视口中，渲染一个圆心位置是 `(50, 50)`，半径是 `20` 的红色圆形，通过 demos 来对比带命名空间和不带命名空间的区别。
   

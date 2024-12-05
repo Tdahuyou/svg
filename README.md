@@ -328,3 +328,16 @@
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0041.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md#1--notes)
   <!-- endregion:toc -->
   
+
+
+
+## ⏰ 待分组
+
+- [ ] [0045. 区分 Image 和 Graphic](https://github.com/Tdahuyou/svg/tree/main/0045.%20%E5%8C%BA%E5%88%86%20Image%20%E5%92%8C%20Graphic/README.md) <!-- [locale](./0045.%20%E5%8C%BA%E5%88%86%20Image%20%E5%92%8C%20Graphic/README.md) -->  
+  <!-- region:toc -->
+  - [1. 📒 Image vs. Graphic](https://github.com/Tdahuyou/svg/tree/main/0045.%20%E5%8C%BA%E5%88%86%20Image%20%E5%92%8C%20Graphic/README.md#1--image-vs-graphic)
+  <!-- endregion:toc -->
+  - 图像（Image）通常指的是 **像素数据的集合**，这些数据以栅格或点阵的形式存储。
+  - 图形（Graphic）更多指的是 **通过数学表达式定义的图形**，例如 SVG 中的形状（圆形、矩形、路径等）。
+  - 备注：自己能够理解 Image vs. Graphic 之间的区别即可，没必要死扣图形、图像两者的区别。从中文表述层面来看，它们大多时候都是被混用的，图、图形、图像，在书面表达中我们通常会将其视作同样的东西。比如：“A：请使用 canvas 绘制一个图形，要求颜色是……”，“B：不对，canvas 画的是图像（巴拉巴拉）” —— 没必要。
+  

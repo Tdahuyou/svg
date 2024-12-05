@@ -37,9 +37,13 @@
 
 - [ ] [0044. 对比 svg 和 canvas](https://github.com/Tdahuyou/svg/tree/main/0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md) <!-- [locale](./0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md) -->  
   <!-- region:toc -->
-  - [1. 📝 summary](https://github.com/Tdahuyou/svg/tree/main/0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md#1--summary)
+  - [1. 🔗 links](https://github.com/Tdahuyou/svg/tree/main/0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md#1--links)
   - [2. 对比表格](https://github.com/Tdahuyou/svg/tree/main/0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md#2-对比表格)
+  - [3. 对比 svg 和 canvas](https://github.com/Tdahuyou/svg/tree/main/0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md#3-对比-svg-和-canvas)
+    - [3.1. 总结](https://github.com/Tdahuyou/svg/tree/main/0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md#31-总结)
   <!-- endregion:toc -->
+  - 文档中提供了一张表格，记录了这俩玩意儿之间的一些差异。可以等学完了 svg、canvas 的内容之后再来回看这篇文档中提到的内容。
+    文档结尾记录了 AI 对此问题的回复，可作为参考。
   
 
 - [ ] [0009. vscode svg 插件](https://github.com/Tdahuyou/svg/tree/main/0009.%20vscode%20svg%20%E6%8F%92%E4%BB%B6/README.md) <!-- [locale](./0009.%20vscode%20svg%20%E6%8F%92%E4%BB%B6/README.md) -->  

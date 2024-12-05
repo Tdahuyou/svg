@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "merge": "      node ./node_modules/tnotes   --mergeREADME         --repoName=svg",
+        "update": "     node ./node_modules/tnotes   --updateREADME        --repoName=svg",
+        "distribute": " node ./node_modules/tnotes   --distributeREADME    --repoName=svg",
+        "sync": "       node ./node_modules/tnotes   --syncREADME          --repoName=svg"
+    }
+}

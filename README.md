@@ -18,17 +18,21 @@
 
 - [ ] [0043. 理解 svg 是什么](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md) <!-- [locale](./0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md) -->  
   <!-- region:toc -->
-  - [1. 📝 summary](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#1--summary)
-  - [2. 🔗 en-words - scalable、vector、graphics](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#2--en-words---scalablevectorgraphics)
-  - [3. 📒 SVG 是什么](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#3--svg-是什么)
-    - [3.1. Scalable Vector Graphics](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#31-scalable-vector-graphics)
-  - [4. 📒 SVG 的一些特点](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#4--svg-的一些特点)
-    - [4.1. 易于编辑](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#41-易于编辑)
-    - [4.2. 矢量图](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#42-矢量图)
-    - [4.3. 和传统的前端技术可以很好地结合](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#43-和传统的前端技术可以很好地结合)
-    - [4.4. 滤镜功能](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#44-滤镜功能)
-    - [4.5. 兼容性 nice](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#45-兼容性-nice)
+  - [1. 🔗 en-words - scalable、vector、graphics](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#1--en-words---scalablevectorgraphics)
+  - [2. 📒 SVG 是什么](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#2--svg-是什么)
+    - [2.1. Scalable Vector Graphics](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#21-scalable-vector-graphics)
+  - [3. 📒 SVG 的一些特点](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#3--svg-的一些特点)
+    - [3.1. 易于编辑](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#31-易于编辑)
+    - [3.2. 矢量图](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#32-矢量图)
+    - [3.3. 和传统的前端技术可以很好地结合](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#33-和传统的前端技术可以很好地结合)
+    - [3.4. 滤镜功能](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#34-滤镜功能)
+    - [3.5. 兼容性 nice](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#35-兼容性-nice)
   <!-- endregion:toc -->
+  - 知识点
+    - 需要知道 SVG 是什么。
+    - 需要知道 SVG 都有哪些特点，适合用来做些什么东西。
+    - Scalable Vector Graphics 这是 SVG 的全称，需要理解每个词所表示的含义，别学完了 SVG 之后还不知道 SVG 的全称是什么。
+  - 备注：文中有很多描述其实是重复的，虽然换了种说法，但是实际上描述的都是同样的内容。不过多次重复提到的内容，也恰恰是比较重要的点。
   
 
 - [ ] [0044. 对比 svg 和 canvas](https://github.com/Tdahuyou/svg/tree/main/0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md) <!-- [locale](./0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md) -->  

@@ -10,7 +10,6 @@
   - [6. 复用](#6-复用)
   - [7. svg 与 js、html、css 的结合](#7-svg-与-jshtmlcss-的结合)
   - [8. 练习](#8-练习)
-  - [9. ⏰ 待分组](#9--待分组)
 <!-- endregion:toc -->
 
 ## 1. svg 在线免费教程
@@ -30,11 +29,14 @@
     - [4.4. 滤镜功能](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#44-滤镜功能)
     - [4.5. 兼容性 nice](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#45-兼容性-nice)
   <!-- endregion:toc -->
+  
+
 - [ ] [0044. 对比 svg 和 canvas](https://github.com/Tdahuyou/svg/tree/main/0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md) <!-- [locale](./0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md) -->  
   <!-- region:toc -->
   - [1. 📝 summary](https://github.com/Tdahuyou/svg/tree/main/0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md#1--summary)
   - [2. 对比表格](https://github.com/Tdahuyou/svg/tree/main/0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md#2-对比表格)
   <!-- endregion:toc -->
+  
 
 - [ ] [0009. vscode svg 插件](https://github.com/Tdahuyou/svg/tree/main/0009.%20vscode%20svg%20%E6%8F%92%E4%BB%B6/README.md) <!-- [locale](./0009.%20vscode%20svg%20%E6%8F%92%E4%BB%B6/README.md) -->  
   <!-- region:toc -->

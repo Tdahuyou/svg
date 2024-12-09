@@ -124,16 +124,25 @@
 
 ## 3. 基本图形绘制
 
-- [ ] [0005. 使用 line 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) <!-- [locale](./0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#1--notes)
+- [x] [0005. 使用 line 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) <!-- [locale](./0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) -->  
+  - [1. 💻 demos.1 - 使用 `<line>` 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#1--demos1---使用-<line>-绘制直线)
+  - 绘制直线，只需要明确起点坐标 `(x1, y1)` 和终点坐标 `(x2, y2)` 即可。
   
 
-- [ ] [0007. 使用 polyline 绘制折线](https://github.com/Tdahuyou/svg/tree/main/0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md) <!-- [locale](./0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md#1--notes)
+- [x] [0007. 使用 polyline 绘制折线](https://github.com/Tdahuyou/svg/tree/main/0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md) <!-- [locale](./0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md) -->  
+  - [1. 💻 demos.1 - 使用 `<polyline>` 绘制折线](https://github.com/Tdahuyou/svg/tree/main/0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md#1--demos1---使用-<polyline>-绘制折线)
+  - [2. 💻 demos.2 - 使用 `<polyline>` 绘制折线并填充](https://github.com/Tdahuyou/svg/tree/main/0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md#2--demos2---使用-<polyline>-绘制折线并填充)
+  - 绘制折线的写法很简单，挨个标注点，渲染的时候会按照顺序将我们写的点连起来形成折线。
   
 
-- [ ] [0008. 使用 rect 绘制矩形](https://github.com/Tdahuyou/svg/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README.md) <!-- [locale](./0008.%20%E4%BD%BF%E7%94%A8%20rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README.md#1--notes)
+- [x] [0008. 使用 rect 绘制矩形](https://github.com/Tdahuyou/svg/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README.md) <!-- [locale](./0008.%20%E4%BD%BF%E7%94%A8%20rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README.md) -->  
+  - [1. 💻 demos.1 - 绘制矩形](https://github.com/Tdahuyou/svg/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README.md#1--demos1---绘制矩形)
+  - [2. 💻 demos.2 - 绘制圆角矩形](https://github.com/Tdahuyou/svg/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README.md#2--demos2---绘制圆角矩形)
+  - 绘制一个矩形，需要知道两组信息：
+    1. 从哪个点开始绘制 `x`、`y`
+    2. 绘制矩形的宽度和高度是多少 `width`、`height`
+  - 圆角
+    - 通过 `rx` `ry` 可以设置矩形的圆角效果。
   
 
 - [ ] [0006. 使用 polygon 绘制多边形](https://github.com/Tdahuyou/svg/tree/main/0006.%20%E4%BD%BF%E7%94%A8%20polygon%20%E7%BB%98%E5%88%B6%E5%A4%9A%E8%BE%B9%E5%BD%A2/README.md) <!-- [locale](./0006.%20%E4%BD%BF%E7%94%A8%20polygon%20%E7%BB%98%E5%88%B6%E5%A4%9A%E8%BE%B9%E5%BD%A2/README.md) -->  

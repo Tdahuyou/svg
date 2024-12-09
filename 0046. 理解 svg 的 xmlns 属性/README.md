@@ -100,7 +100,7 @@
 - 下面是 1.svg，是搬运过来的原始内容，用浏览器打开后看到的内容如下：
   - ![](assets/2024-12-09-15-01-53.png)
 
-```svg
+```xml
 <svg class="logo" viewBox="0 0 128 128" width="24" height="24" data-v-f32e683e="">
     <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z" data-v-f32e683e=""></path>
     <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-f32e683e=""></path>
@@ -110,7 +110,7 @@
 - 下面是 2.svg，在 1.svg 的基础上加上了 xmlns 声明，用浏览器打开后看到的内容如下：
   - ![](assets/2024-12-09-15-01-49.png)
 
-```svg
+```xml
 <svg class="logo" viewBox="0 0 128 128" width="24" height="24" data-v-f32e683e="" xmlns="http://www.w3.org/2000/svg">
     <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z" data-v-f32e683e=""></path>
     <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-f32e683e=""></path>

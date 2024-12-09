@@ -158,7 +158,12 @@
   
 
 - [ ] [0004. 使用 ellipse 绘制椭圆形](https://github.com/Tdahuyou/svg/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md) <!-- [locale](./0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md#1--notes)
+  - [1. 💻 demos.1 - 使用 `<ellipse>` 绘制椭圆形](https://github.com/Tdahuyou/svg/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md#1--demos1---使用-<ellipse>-绘制椭圆形)
+  - 绘制椭圆需要知道的信息：
+    1. 椭圆的圆心 cx cy
+    2. 椭圆的 x 轴半径 rx
+    3. 椭圆的 y 轴半径 ry
+  - 如果 rx = ry，那么其实绘制的就是一个圆。
   
 
 - [ ] [0031. 使用属性 x、y、dx、dy 控制文本的绘制位置](https://github.com/Tdahuyou/svg/tree/main/0031.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20x%E3%80%81y%E3%80%81dx%E3%80%81dy%20%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E7%9A%84%E7%BB%98%E5%88%B6%E4%BD%8D%E7%BD%AE/README.md) <!-- [locale](./0031.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20x%E3%80%81y%E3%80%81dx%E3%80%81dy%20%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E7%9A%84%E7%BB%98%E5%88%B6%E4%BD%8D%E7%BD%AE/README.md) -->  

@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 - [1. 🔗 links](#1--links)
-- [2. 对比表格](#2-对比表格)
-- [3. 对比 svg 和 canvas](#3-对比-svg-和-canvas)
+- [2. 📒 对比 svg 和 canvas](#2--对比-svg-和-canvas)
+- [3. 📒 svg、canvas 的应用场景](#3--svgcanvas-的应用场景)
 <!-- endregion:toc -->
 - 文档中提供了一张表格，记录了这俩玩意儿之间的一些差异。可以等学完了 svg、canvas 的内容之后再来回看这篇文档中提到的内容。
 - 总结：
@@ -19,7 +19,7 @@
 - https://echarts.apache.org/examples/zh/index.html#chart-type-line
   - echarts demos
 
-## 2. 对比表格
+## 2. 📒 对比 svg 和 canvas
 
 | SVG                                     | Canvas                                      |
 | --------------------------------------- | ------------------------------------------- |
@@ -31,8 +31,6 @@
 | 存在一定的性能问题                      | 性能略高一些                                |
 | 适合绘制 **地图**、 **图标** ……          | 适合绘制 **图表**，制作 **游戏** ……          |
 | 不易绘制 3d 图形                        | 提供了绘制 **3d** 图形的 api                |
-
-## 3. 对比 svg 和 canvas
 
 - 在提到前端绘图时，首先会想到的两个技术就是 svg、canvas。但是它们是两个完全不同的技术，存在不少区别。在初学阶段，想要充分理解 svg、canvas 之间的区别并不容易，只能做到对它们俩有个初步的认知，比如知道它们都能用来做些什么内容。想要充分理解它们之间的区别，最好把两个技术都过一边，从各个角度去比较两者之间的差异。
 - 从不同的角度来比较两者之间的差异：
@@ -55,13 +53,15 @@
   - **应用场景**
     - **SVG**：非常适合需要高度可缩放性的应用，如图标、图表和其他复杂的交互式界面元素。
     - **Canvas**：更适合需要大量计算和重新绘制的应用，如视频游戏、图像编辑和实时视频处理。
-- **🤔 svg、canvas 都能做什么？**
-  - 想要了解 svg、canvas 都能做什么，一个不错的法子就是上网找案例，看看使用 svg、canvas 技术实现的成品。比如，快速了解一下它们能够实现什么效果。
-  - svg 的 demos 可以看看 [snapsvg demos](http://snapsvg.io/demos/)
-    - ![](assets/2024-12-05-13-16-22.png)
-  - canvas 的 demos 可以看看 [4399 小游戏](https://www.4399.com/)。
-    - ![](assets/2024-12-05-13-16-38.png)
-    - 4399 中的小游戏，大多也都是通过 canvas 来制作的。
-  - 再比如 [echarts demos](https://echarts.apache.org/examples/zh/index.html#chart-type-line)
-    - ![](assets/2024-12-05-13-16-52.png)
-    - 这里补充一嘴，实际上 echarts 图表，支持两种渲染模式 svg、canvas。默认情况下使用的是 canvas 来渲染，由此可以看出，很多图都可以用 svg、canvas 来绘制，并不是说某种图就一定得使用某种技术来实现。
+
+## 3. 📒 svg、canvas 的应用场景
+
+- 想要了解 svg、canvas 都能做什么，一个不错的法子就是上网找案例，看看使用 svg、canvas 技术实现的成品。比如，快速了解一下它们能够实现什么效果。
+- svg 的 demos 可以看看 [snapsvg demos](http://snapsvg.io/demos/)
+  - ![](assets/2024-12-05-13-16-22.png)
+- canvas 的 demos 可以看看 [4399 小游戏](https://www.4399.com/)。
+  - ![](assets/2024-12-05-13-16-38.png)
+  - 4399 中的小游戏，大多也都是通过 canvas 来制作的。
+- 再比如 [echarts demos](https://echarts.apache.org/examples/zh/index.html#chart-type-line)
+  - ![](assets/2024-12-05-13-16-52.png)
+  - 这里补充一嘴，实际上 echarts 图表，支持两种渲染模式 svg、canvas。默认情况下使用的是 canvas 来渲染，由此可以看出，很多图都可以用 svg、canvas 来绘制，并不是说某种图就一定得使用某种技术来实现。

@@ -1,4 +1,8 @@
 <!--
+textPath mdn doc => https://developer.mozilla.org/zh-CN/docs/Web/SVG/Element/textPath
+
+textPath 用于将文本沿着指定的路径进行排列，使文本能够遵循任何复杂形状或曲线，从而创造动态和视觉上吸引人的文本效果。
+
 文字将按照 path 路径来展现。
 
 <textPath> 使用 href 属性，链接指定 id 的 path 图形。

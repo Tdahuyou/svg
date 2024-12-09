@@ -63,14 +63,19 @@
   
 
 - [ ] [0047. 理解 svg 的 version 属性](https://github.com/Tdahuyou/svg/tree/main/0047.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20version%20%E5%B1%9E%E6%80%A7/README.md) <!-- [locale](./0047.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20version%20%E5%B1%9E%E6%80%A7/README.md) -->  
-  - [1. 🔗 MDN - svg version 属性](https://github.com/Tdahuyou/svg/tree/main/0047.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20version%20%E5%B1%9E%E6%80%A7/README.md#1--mdn---svg-version-属性)
+  - [1. 🔗 MDN - 对 svg version 属性的描述](https://github.com/Tdahuyou/svg/tree/main/0047.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20version%20%E5%B1%9E%E6%80%A7/README.md#1--mdn---对-svg-version-属性的描述)
   - [2. 📒 认识 version 属性](https://github.com/Tdahuyou/svg/tree/main/0047.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20version%20%E5%B1%9E%E6%80%A7/README.md#2--认识-version-属性)
   - version 属性的值只有两种情况：`1.0` 和 `1.1`。
-  - version 属性已经被抛弃了，你可以认为它是一个无效属性。
+  - **version 属性已经被抛弃了，你可以认为它是一个无效属性。**
   
 
-- [ ] [0009. vscode svg 插件](https://github.com/Tdahuyou/svg/tree/main/0009.%20vscode%20svg%20%E6%8F%92%E4%BB%B6/README.md) <!-- [locale](./0009.%20vscode%20svg%20%E6%8F%92%E4%BB%B6/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0009.%20vscode%20svg%20%E6%8F%92%E4%BB%B6/README.md#1--notes)
+- [ ] [0009. vscode svg 相关插件](https://github.com/Tdahuyou/svg/tree/main/0009.%20vscode%20svg%20%E7%9B%B8%E5%85%B3%E6%8F%92%E4%BB%B6/README.md) <!-- [locale](./0009.%20vscode%20svg%20%E7%9B%B8%E5%85%B3%E6%8F%92%E4%BB%B6/README.md) -->  
+  - [1. 🔗 相关插件的链接](https://github.com/Tdahuyou/svg/tree/main/0009.%20vscode%20svg%20%E7%9B%B8%E5%85%B3%E6%8F%92%E4%BB%B6/README.md#1--相关插件的链接)
+  - [2. 📒 SVG 插件简介](https://github.com/Tdahuyou/svg/tree/main/0009.%20vscode%20svg%20%E7%9B%B8%E5%85%B3%E6%8F%92%E4%BB%B6/README.md#2--svg-插件简介)
+  - [3. 📒 SVG Preview 插件简介](https://github.com/Tdahuyou/svg/tree/main/0009.%20vscode%20svg%20%E7%9B%B8%E5%85%B3%E6%8F%92%E4%BB%B6/README.md#3--svg-preview-插件简介)
+  - [4. 📒 SVG Snippets 插件简介](https://github.com/Tdahuyou/svg/tree/main/0009.%20vscode%20svg%20%E7%9B%B8%E5%85%B3%E6%8F%92%E4%BB%B6/README.md#4--svg-snippets-插件简介)
+  - 记录在 vscode 上推荐安装的一些 svg 相关插件，这些插件的作用是让你在 vscode 中编写 svg 程序有更好的书写体验，安装和使用也非常简单，如果你发现某个插件不好使，完全可以直接删了，或者禁用它。
+  - 有关插件的详细描述说明，可自行查阅插件对应的文档，文中仅仅是对插件功能的简单描述。
   
 
 - [ ] [0001. 在 html 中嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md) <!-- [locale](./0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md) -->  

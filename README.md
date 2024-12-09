@@ -196,10 +196,11 @@
 
 ## 4. path
 
-- [ ] [0048. 认识 path 元素](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md) <!-- [locale](./0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md) -->  
+- [x] [0048. 认识 path 元素](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md) <!-- [locale](./0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md) -->  
   - [1. 📒 近乎万能的 path](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#1--近乎万能的-path)
   - [2. 📒 手写 SVG 与设计软件导出 SVG 的区别及适用场景](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#2--手写-svg-与设计软件导出-svg-的区别及适用场景)
   - [3. 💻 demos.1 - 来看一个由 path 制作的 logo--react.svg 源码](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#3--demos1---来看一个由-path-制作的-logo--reactsvg-源码)
+  - 在学习 path 的相关内容之前，先对 path 有个初步的认知，知道它都能用来干啥。
   
 
 - [ ] [0012. 使用 path 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) <!-- [locale](./0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) -->  

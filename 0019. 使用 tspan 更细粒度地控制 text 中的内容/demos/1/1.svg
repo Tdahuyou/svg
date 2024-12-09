@@ -1,4 +1,9 @@
 <!--
+mdn doc => https://developer.mozilla.org/zh-CN/docs/Web/SVG/Element/tspan
+
+<tspan> 在 SVG 中用于在文本内部进行更细粒度的文本排列和样式控制。
+它可以单独设置一段文本的属性，如坐标、颜色、字体等，允许在一个更大的文本块中创建复杂的文本布局。
+
 tspan 用于包裹部分文字，对这部分文字单独做设置。
 
 x 和 y 基于坐标轴原点，重新设置子部分文字的位置。
@@ -57,7 +62,7 @@ dx 和 dy 相对于这部分文字原来的位置，重新设置新位置。
     <text x="88" y="4" fill="black">90</text>
     <text x="98" y="4" fill="black">100</text>
   </g>
-  <text x="10" y="50" font-size="10" style="color:red" color="green" fill="blue">
+  <text x="10" y="50" font-size="10" fill="blue">
     123
     <tspan dy="-5" font-size="20" fill="red" text-decoration="line-through">abc</tspan>
     <tspan x="10" y="30" font-size="10" fill="orange">ABC</tspan>

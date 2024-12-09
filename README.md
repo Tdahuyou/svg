@@ -109,7 +109,17 @@
   
 
 - [ ] [0034. 理解 viewBox 视口](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md) <!-- [locale](./0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#1--notes)
+  - [1. 💻 demos.1 - 省略 `viewBox`](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#1--demos1---省略-viewbox)
+  - [2. 💻 demos.2 - 指定 viewBox 正好装下图形](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#2--demos2---指定-viewbox-正好装下图形)
+  - [3. 💻 demos.3 - 指定的 viewBox 区域看不到图形](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#3--demos3---指定的-viewbox-区域看不到图形)
+  - [4. 💻 demos.4 - 根据 demos.3 中的图形位置修改 viewBox 的值](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#4--demos4---根据-demos3-中的图形位置修改-viewbox-的值)
+  - [5. 🤔 Q&A](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#5--q&a)
+    - [5.1. 问：svg 中坐标系有多大？](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#51-问svg-中坐标系有多大)
+    - [5.2. 问：`<svg>` 的 width、height 有什么用？](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#52-问<svg>-的-widthheight-有什么用)
+    - [5.3. 问：`<svg>` 的 width、height 都设置为 500，那么看到的坐标系是哪块区域呢？](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#53-问<svg>-的-widthheight-都设置为-500那么看到的坐标系是哪块区域呢)
+  - viewBox 视口，这是一个对于 svg 初学者来说不那么好理解的属性。
+  - 其实 viewBox 这个词已经描述得很到位了，view 看，box 盒子，其中盒子可以理解为一个矩形区域 —— viewBox 表示你要看哪一块矩形区域。
+  - 可以结合着 `Q&A` 中提到的问题来理解 viewBox 属性。
   
 
 ## 3. 基本图形绘制

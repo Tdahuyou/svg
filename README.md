@@ -78,7 +78,7 @@
   - 有关插件的详细描述说明，可自行查阅插件对应的文档，文中仅仅是对插件功能的简单描述。
   
 
-- [ ] [0001. 在 html 中嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md) <!-- [locale](./0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md) -->  
+- [x] [0001. 在 html 中嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md) <!-- [locale](./0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md) -->  
   - [1. 💻 demos.1 - 准备测试用的 svg 图形](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md#1--demos1---准备测试用的-svg-图形)
   - [2. 💻 demos.2 - 通过 img 标签来嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md#2--demos2---通过-img-标签来嵌入-svg)
   - [3. 💻 demos.3 - 通过直接嵌入源码的方式来嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md#3--demos3---通过直接嵌入源码的方式来嵌入-svg)
@@ -92,8 +92,12 @@
   - 如果你写好了一个 svg 文件，想要知道如何将其引入到前端页面上，可以参考下文中提到的一些做法。
   
 
-- [ ] [0002. 根元素 svg 的数量](https://github.com/Tdahuyou/svg/tree/main/0002.%20%E6%A0%B9%E5%85%83%E7%B4%A0%20svg%20%E7%9A%84%E6%95%B0%E9%87%8F/README.md) <!-- [locale](./0002.%20%E6%A0%B9%E5%85%83%E7%B4%A0%20svg%20%E7%9A%84%E6%95%B0%E9%87%8F/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0002.%20%E6%A0%B9%E5%85%83%E7%B4%A0%20svg%20%E7%9A%84%E6%95%B0%E9%87%8F/README.md#1--notes)
+- [x] [0002. 根元素 svg 的数量](https://github.com/Tdahuyou/svg/tree/main/0002.%20%E6%A0%B9%E5%85%83%E7%B4%A0%20svg%20%E7%9A%84%E6%95%B0%E9%87%8F/README.md) <!-- [locale](./0002.%20%E6%A0%B9%E5%85%83%E7%B4%A0%20svg%20%E7%9A%84%E6%95%B0%E9%87%8F/README.md) -->  
+  - [1. 💻 demos.1 - 在 .html 文件中书写多个 svg](https://github.com/Tdahuyou/svg/tree/main/0002.%20%E6%A0%B9%E5%85%83%E7%B4%A0%20svg%20%E7%9A%84%E6%95%B0%E9%87%8F/README.md#1--demos1---在-html-文件中书写多个-svg)
+  - [2. 💻 demos.2 - 在 .svg 文件中只能书写单个 svg](https://github.com/Tdahuyou/svg/tree/main/0002.%20%E6%A0%B9%E5%85%83%E7%B4%A0%20svg%20%E7%9A%84%E6%95%B0%E9%87%8F/README.md#2--demos2---在-svg-文件中只能书写单个-svg)
+  - 根元素的数量得看你在什么位置写，是写在 `.svg` 中还是 `.html` 中，前者 `.svg` 只能出现一个 `<svg>` 根元素，后者 `.html` 可以有多个 `<svg>` 根元素。
+  - svg 标签写在 `.svg` 文件中，作为根标记，要求有且只有一个。
+  - svg 标签写在 `.html` 文件中，可以写多个标记，表示嵌入了多个 svg 图片，每一个 svg 都是一个独立的区域。
   
 
 - [ ] [0035. 绘制坐标系网格](https://github.com/Tdahuyou/svg/tree/main/0035.%20%E7%BB%98%E5%88%B6%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BD%91%E6%A0%BC/README.md) <!-- [locale](./0035.%20%E7%BB%98%E5%88%B6%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BD%91%E6%A0%BC/README.md) -->  

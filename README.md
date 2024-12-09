@@ -216,10 +216,11 @@
 ## 4. path
 
 - [x] [0048. 认识 path 元素](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md) <!-- [locale](./0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md) -->  
-  - [1. 📒 近乎万能的 path](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#1--近乎万能的-path)
-  - [2. 📒 path 中一些常用的命令](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#2--path-中一些常用的命令)
-  - [3. 📒 手写 SVG 与设计软件导出 SVG 的区别及适用场景](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#3--手写-svg-与设计软件导出-svg-的区别及适用场景)
-  - [4. 💻 demos.1 - 来看一个由 path 制作的 logo--react.svg 源码](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#4--demos1---来看一个由-path-制作的-logo--reactsvg-源码)
+  - [1. 🔗 en-words](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#1--en-words)
+  - [2. 📒 近乎万能的 path](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#2--近乎万能的-path)
+  - [3. 📒 path 中一些常用的命令](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#3--path-中一些常用的命令)
+  - [4. 📒 手写 SVG 与设计软件导出 SVG 的区别及适用场景](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#4--手写-svg-与设计软件导出-svg-的区别及适用场景)
+  - [5. 💻 demos.1 - 来看一个由 path 制作的 logo--react.svg 源码](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#5--demos1---来看一个由-path-制作的-logo--reactsvg-源码)
   - 在学习 path 的相关内容之前，先对 path 有个初步的认知，知道它都能用来干啥。
   - path 这玩意儿有点儿骚，因为它绘制的是路径，这个路径可以是直的也可以是弯的。也就是说几乎没有 path 不能绘制的图形。
   - 因此，在众多 svg 元素中，`<path>` 的参数也是最为复杂的。文中提到了不少关键字，这些关键字在后续的 demo 中大多都会结合实际的示例来介绍。要理解关键字，可以把切入点放在关键字的全称上，把英文单词先给看懂，知道每个关键字对应的英文全称是什么。

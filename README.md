@@ -108,7 +108,7 @@
   - 至于 `viewBox`，它表示视口，不是一两句话讲得清楚的，这玩意儿后续也会单独介绍。
   
 
-- [ ] [0034. 理解 viewBox 视口](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md) <!-- [locale](./0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md) -->  
+- [x] [0034. 理解 viewBox 视口](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md) <!-- [locale](./0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md) -->  
   - [1. 💻 demos.1 - 省略 `viewBox`](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#1--demos1---省略-viewbox)
   - [2. 💻 demos.2 - 指定 viewBox 正好装下图形](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#2--demos2---指定-viewbox-正好装下图形)
   - [3. 💻 demos.3 - 指定的 viewBox 区域看不到图形](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#3--demos3---指定的-viewbox-区域看不到图形)

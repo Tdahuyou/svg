@@ -100,8 +100,12 @@
   - svg 标签写在 `.html` 文件中，可以写多个标记，表示嵌入了多个 svg 图片，每一个 svg 都是一个独立的区域。
   
 
-- [ ] [0035. 绘制坐标系网格](https://github.com/Tdahuyou/svg/tree/main/0035.%20%E7%BB%98%E5%88%B6%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BD%91%E6%A0%BC/README.md) <!-- [locale](./0035.%20%E7%BB%98%E5%88%B6%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BD%91%E6%A0%BC/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0035.%20%E7%BB%98%E5%88%B6%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BD%91%E6%A0%BC/README.md#1--notes)
+- [x] [0035. 绘制坐标系网格](https://github.com/Tdahuyou/svg/tree/main/0035.%20%E7%BB%98%E5%88%B6%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BD%91%E6%A0%BC/README.md) <!-- [locale](./0035.%20%E7%BB%98%E5%88%B6%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BD%91%E6%A0%BC/README.md) -->  
+  - [1. 💻 demos.1 - 绘制坐标系网格](https://github.com/Tdahuyou/svg/tree/main/0035.%20%E7%BB%98%E5%88%B6%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BD%91%E6%A0%BC/README.md#1--demos1---绘制坐标系网格)
+  - 这里绘制的网格，是为了又一个更直观的参考坐标系，学习 svg、canvas 之类的内容，很多时候都是在手写一个个坐标，有一个直观的坐标参考系，写起来会方便很多。
+  - 想要理解这个坐标是怎么绘制的，涉及到以下知识点：`<line>`、`<text>`、`<g>`、`viewBox`。
+  - `<line>`、`<text>`、`<g>`这些内容都很简单，后续对它们都有介绍。即便还没有学习到这些元素，直接结合着注释看源代码，你应该也差不多能够理解文档中的网格是如何绘制出来的了。
+  - 至于 `viewBox`，它表示视口，不是一两句话讲得清楚的，这玩意儿后续也会单独介绍。
   
 
 - [ ] [0034. 理解 viewBox 视口](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md) <!-- [locale](./0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md) -->  

@@ -22,4 +22,6 @@
 - [curve](https://github.com/Tdahuyou/en-words/blob/main/curve.md)
 - [quadratic](https://github.com/Tdahuyou/en-words/blob/main/quadratic.md)
 - [elliptical](https://github.com/Tdahuyou/en-words/blob/main/elliptical.md)
+- [miter](https://github.com/Tdahuyou/en-words/blob/main/miter.md)
+- [bevel](https://github.com/Tdahuyou/en-words/blob/main/bevel.md)
 

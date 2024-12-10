@@ -292,7 +292,10 @@
   
 
 - [ ] [0027. 使用属性 stroke-linejoin 设置线条连接处样式](https://github.com/Tdahuyou/svg/tree/main/0027.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-linejoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0027.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-linejoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E6%A0%B7%E5%BC%8F/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0027.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-linejoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E6%A0%B7%E5%BC%8F/README.md#1--notes)
+  - [1. 💻 demos.1 - 使用属性 stroke-linejoin 设置线条连接处样式](https://github.com/Tdahuyou/svg/tree/main/0027.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-linejoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E6%A0%B7%E5%BC%8F/README.md#1--demos1---使用属性-stroke-linejoin-设置线条连接处样式)
+  - miter	`>`	尖角
+  - round `)` 圆角
+  - bevel `]`	平角
   
 
 - [ ] [0025. 使用属性 stroke-dasharray 设置虚线](https://github.com/Tdahuyou/svg/tree/main/0025.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dasharray%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README.md) <!-- [locale](./0025.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dasharray%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README.md) -->  
@@ -300,7 +303,8 @@
   
 
 - [ ] [0026. 使用属性 stroke-dashoffset 设置虚线的偏移](https://github.com/Tdahuyou/svg/tree/main/0026.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dashoffset%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF%E7%9A%84%E5%81%8F%E7%A7%BB/README.md) <!-- [locale](./0026.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dashoffset%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF%E7%9A%84%E5%81%8F%E7%A7%BB/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0026.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dashoffset%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF%E7%9A%84%E5%81%8F%E7%A7%BB/README.md#1--notes)
+  - [1. 💻 demos.1 - 使用属性 stroke-dashoffset 设置虚线的偏移](https://github.com/Tdahuyou/svg/tree/main/0026.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dashoffset%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF%E7%9A%84%E5%81%8F%E7%A7%BB/README.md#1--demos1---使用属性-stroke-dashoffset-设置虚线的偏移)
+  - stroke-dashoffset、stroke-dasharray 这两个属性配合使用，可以实现一些常见的线条移动的动画效果。
   
 
 - [ ] [0015. 使用属性 fill、fill-opacity 设置填充样式](https://github.com/Tdahuyou/svg/tree/main/0015.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill%E3%80%81fill-opacity%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0015.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill%E3%80%81fill-opacity%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E6%A0%B7%E5%BC%8F/README.md) -->  
@@ -308,7 +312,7 @@
   
 
 - [ ] [0023. 使用 stroke-dasharray 模拟加载中动画效果](https://github.com/Tdahuyou/svg/tree/main/0023.%20%E4%BD%BF%E7%94%A8%20stroke-dasharray%20%E6%A8%A1%E6%8B%9F%E5%8A%A0%E8%BD%BD%E4%B8%AD%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/README.md) <!-- [locale](./0023.%20%E4%BD%BF%E7%94%A8%20stroke-dasharray%20%E6%A8%A1%E6%8B%9F%E5%8A%A0%E8%BD%BD%E4%B8%AD%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0023.%20%E4%BD%BF%E7%94%A8%20stroke-dasharray%20%E6%A8%A1%E6%8B%9F%E5%8A%A0%E8%BD%BD%E4%B8%AD%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/README.md#1--notes)
+  - [1. 💻 demos.1 - 使用 stroke-dasharray 模拟加载中动画效果](https://github.com/Tdahuyou/svg/tree/main/0023.%20%E4%BD%BF%E7%94%A8%20stroke-dasharray%20%E6%A8%A1%E6%8B%9F%E5%8A%A0%E8%BD%BD%E4%B8%AD%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/README.md#1--demos1---使用-stroke-dasharray-模拟加载中动画效果)
   
 
 - [ ] [0024. 使用属性 fill-rule 设置填充规则](https://github.com/Tdahuyou/svg/tree/main/0024.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill-rule%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E8%A7%84%E5%88%99/README.md) <!-- [locale](./0024.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill-rule%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E8%A7%84%E5%88%99/README.md) -->  

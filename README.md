@@ -4,30 +4,37 @@
 
 <!-- region:toc -->
 - [svg](#svg)
-  - [1. svg 在线免费教程](#1-svg-在线免费教程)
-  - [2. svg 起步](#2-svg-起步)
-  - [3. 基本图形绘制](#3-基本图形绘制)
-  - [4. path](#4-path)
-  - [5. 描边和填充](#5-描边和填充)
-  - [6. 复用](#6-复用)
-  - [7. svg 与 js、html、css 的结合](#7-svg-与-jshtmlcss-的结合)
-  - [8. 练习](#8-练习)
+  - [1. 词库](#1-词库)
+  - [2. svg 在线免费教程](#2-svg-在线免费教程)
+  - [3. svg 起步](#3-svg-起步)
+  - [4. 基本图形绘制](#4-基本图形绘制)
+  - [5. path](#5-path)
+  - [6. 描边和填充](#6-描边和填充)
+  - [7. 复用](#7-复用)
+  - [8. svg 与 js、html、css 的结合](#8-svg-与-jshtmlcss-的结合)
+  - [9. 练习](#9-练习)
 <!-- endregion:toc -->
 
-## 1. svg 在线免费教程
+## 1. 词库
 
-## 2. svg 起步
+- [ ] [0049. en-words](https://github.com/Tdahuyou/svg/tree/main/0049.%20en-words/README.md) <!-- [locale](./0049.%20en-words/README.md) -->  
+  - [1. 📝 词汇列表 - 哪里不会点哪里](https://github.com/Tdahuyou/svg/tree/main/0049.%20en-words/README.md#1--词汇列表---哪里不会点哪里)
+  - 记录在学习过程中涉及到的一些英语词汇。
+  
+
+## 2. svg 在线免费教程
+
+## 3. svg 起步
 
 - [x] [0043. 理解 svg 是什么](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md) <!-- [locale](./0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md) -->  
-  - [1. 🔗 en-words - scalable、vector、graphics](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#1--en-words---scalablevectorgraphics)
-  - [2. 📒 SVG 是什么](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#2--svg-是什么)
-    - [2.1. Scalable Vector Graphics](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#21-scalable-vector-graphics)
-  - [3. 📒 SVG 的一些特点](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#3--svg-的一些特点)
-    - [3.1. 易于编辑](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#31-易于编辑)
-    - [3.2. 矢量图](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#32-矢量图)
-    - [3.3. 和传统的前端技术可以很好地结合](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#33-和传统的前端技术可以很好地结合)
-    - [3.4. 滤镜功能](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#34-滤镜功能)
-    - [3.5. 兼容性 nice](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#35-兼容性-nice)
+  - [1. 📒 SVG 是什么](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#1--svg-是什么)
+    - [1.1. Scalable Vector Graphics](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#11-scalable-vector-graphics)
+  - [2. 📒 SVG 的一些特点](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#2--svg-的一些特点)
+    - [2.1. 易于编辑](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#21-易于编辑)
+    - [2.2. 矢量图](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#22-矢量图)
+    - [2.3. 和传统的前端技术可以很好地结合](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#23-和传统的前端技术可以很好地结合)
+    - [2.4. 滤镜功能](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#24-滤镜功能)
+    - [2.5. 兼容性 nice](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#25-兼容性-nice)
   - 知识点
     - 需要知道 SVG 是什么。
     - 需要知道 SVG 都有哪些特点，适合用来做些什么东西。
@@ -124,7 +131,7 @@
   - 可以结合着 `Q&A` 中提到的问题来理解 viewBox 属性。
   
 
-## 3. 基本图形绘制
+## 4. 基本图形绘制
 
 - [x] [0005. 使用 line 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) <!-- [locale](./0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) -->  
   - [1. 💻 demos.1 - 使用 `<line>` 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#1--demos1---使用-<line>-绘制直线)
@@ -213,14 +220,13 @@
   - 看下文档中提供的 demo 效果，很容易理解其作用。效果蛮惊艳的，不过不太常见。
   
 
-## 4. path
+## 5. path
 
 - [x] [0048. 认识 path 元素](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md) <!-- [locale](./0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md) -->  
-  - [1. 🔗 en-words](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#1--en-words)
-  - [2. 📒 近乎万能的 path](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#2--近乎万能的-path)
-  - [3. 📒 path 中一些常用的命令](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#3--path-中一些常用的命令)
-  - [4. 📒 手写 SVG 与设计软件导出 SVG 的区别及适用场景](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#4--手写-svg-与设计软件导出-svg-的区别及适用场景)
-  - [5. 💻 demos.1 - 来看一个由 path 制作的 logo--react.svg 源码](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#5--demos1---来看一个由-path-制作的-logo--reactsvg-源码)
+  - [1. 📒 近乎万能的 path](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#1--近乎万能的-path)
+  - [2. 📒 path 中一些常用的命令](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#2--path-中一些常用的命令)
+  - [3. 📒 手写 SVG 与设计软件导出 SVG 的区别及适用场景](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#3--手写-svg-与设计软件导出-svg-的区别及适用场景)
+  - [4. 💻 demos.1 - 来看一个由 path 制作的 logo--react.svg 源码](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#4--demos1---来看一个由-path-制作的-logo--reactsvg-源码)
   - 在学习 path 的相关内容之前，先对 path 有个初步的认知，知道它都能用来干啥。
   - path 这玩意儿有点儿骚，因为它绘制的是路径，这个路径可以是直的也可以是弯的。也就是说几乎没有 path 不能绘制的图形。
   - 因此，在众多 svg 元素中，`<path>` 的参数也是最为复杂的。文中提到了不少关键字，这些关键字在后续的 demo 中大多都会结合实际的示例来介绍。要理解关键字，可以把切入点放在关键字的全称上，把英文单词先给看懂，知道每个关键字对应的英文全称是什么。
@@ -270,7 +276,7 @@
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#1--notes)
   
 
-## 5. 描边和填充
+## 6. 描边和填充
 
 - [ ] [0028. 使用属性 stroke、stroke-width、stroke-opacity、stroke-linecap 设置描边样式](https://github.com/Tdahuyou/svg/tree/main/0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md) -->  
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md#1--notes)
@@ -304,7 +310,7 @@
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0037.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%9C%BC%E7%9D%9B%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--notes)
   
 
-## 6. 复用
+## 7. 复用
 
 - [ ] [0017. 使用 g 作为容器](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md) <!-- [locale](./0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md) -->  
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md#1--notes)
@@ -318,7 +324,7 @@
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md#1--notes)
   
 
-## 7. svg 与 js、html、css 的结合
+## 8. svg 与 js、html、css 的结合
 
 - [ ] [0021. 使用 css 控制 svg 样式](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md) -->  
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md#1--notes)
@@ -328,7 +334,7 @@
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.md#1--notes)
   
 
-## 8. 练习
+## 9. 练习
 
 - [ ] [0013. 绘制【扫码】图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
   - [1. 🔗 iconfont 图标库](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--iconfont-图标库)
@@ -371,12 +377,4 @@
 
 - [ ] [0041. 练习 - 绘制动态饼图](https://github.com/Tdahuyou/svg/tree/main/0041.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md) <!-- [locale](./0041.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md) -->  
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0041.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md#1--notes)
-  
-
-
-
-## ⏰ 待分组
-
-- [ ] [0049. en-words](https://github.com/Tdahuyou/svg/tree/main/0049.%20en-words/README.md) <!-- [locale](./0049.%20en-words/README.md) -->  
-  - [1. ⏰](https://github.com/Tdahuyou/svg/tree/main/0049.%20en-words/README.md#1-)
   

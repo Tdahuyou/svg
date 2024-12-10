@@ -1,33 +1,20 @@
 # [0048. 认识 path 元素](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0)
 
 <!-- region:toc -->
-- [1. 🔗 en-words](#1--en-words)
-- [2. 📒 近乎万能的 path](#2--近乎万能的-path)
-- [3. 📒 path 中一些常用的命令](#3--path-中一些常用的命令)
-- [4. 📒 手写 SVG 与设计软件导出 SVG 的区别及适用场景](#4--手写-svg-与设计软件导出-svg-的区别及适用场景)
-- [5. 💻 demos.1 - 来看一个由 path 制作的 logo--react.svg 源码](#5--demos1---来看一个由-path-制作的-logo--reactsvg-源码)
+- [1. 📒 近乎万能的 path](#1--近乎万能的-path)
+- [2. 📒 path 中一些常用的命令](#2--path-中一些常用的命令)
+- [3. 📒 手写 SVG 与设计软件导出 SVG 的区别及适用场景](#3--手写-svg-与设计软件导出-svg-的区别及适用场景)
+- [4. 💻 demos.1 - 来看一个由 path 制作的 logo--react.svg 源码](#4--demos1---来看一个由-path-制作的-logo--reactsvg-源码)
 <!-- endregion:toc -->
 - 在学习 path 的相关内容之前，先对 path 有个初步的认知，知道它都能用来干啥。
 - path 这玩意儿有点儿骚，因为它绘制的是路径，这个路径可以是直的也可以是弯的。也就是说几乎没有 path 不能绘制的图形。
 - 因此，在众多 svg 元素中，`<path>` 的参数也是最为复杂的。文中提到了不少关键字，这些关键字在后续的 demo 中大多都会结合实际的示例来介绍。要理解关键字，可以把切入点放在关键字的全称上，把英文单词先给看懂，知道每个关键字对应的英文全称是什么。
 
-## 1. 🔗 en-words
-
-- [moveto](https://github.com/Tdahuyou/en-words/blob/main/moveto.md)
-- [lineto](https://github.com/Tdahuyou/en-words/blob/main/lineto.md)
-- [horizontal](https://github.com/Tdahuyou/en-words/blob/main/horizontal.md)
-- [vertical](https://github.com/Tdahuyou/en-words/blob/main/vertical.md)
-- [cubic](https://github.com/Tdahuyou/en-words/blob/main/cubic.md)
-- [Bezier](https://github.com/Tdahuyou/en-words/blob/main/Bezier.md)
-- [curve](https://github.com/Tdahuyou/en-words/blob/main/curve.md)
-- [quadratic](https://github.com/Tdahuyou/en-words/blob/main/quadratic.md)
-- [elliptical](https://github.com/Tdahuyou/en-words/blob/main/elliptical.md)
-
-## 2. 📒 近乎万能的 path
+## 1. 📒 近乎万能的 path
 
 `<path>` 元素是 SVG（可缩放矢量图形）中最强大和最常用的绘图元素之一。它允许你定义复杂的形状，通过一系列的命令来绘制路径。这些路径可以用来创建线条、曲线、多边形等 **几乎任何类型的二维图形**。
 
-## 3. 📒 path 中一些常用的命令
+## 2. 📒 path 中一些常用的命令
 
 1. **M (moveto)** - 移动到一个新的点，不绘制线条。
 2. **L (lineto)** - 从当前点绘制一条直线到新的点。
@@ -50,7 +37,7 @@
 `<path>` 元素的灵活性和强大功能使其成为 SVG 图形中最常用且功能最全的元素之一。
 
 
-## 4. 📒 手写 SVG 与设计软件导出 SVG 的区别及适用场景
+## 3. 📒 手写 SVG 与设计软件导出 SVG 的区别及适用场景
 
 - 手写 SVG
   - 需要知道，在项目中需要手写 svg 的场景并不多。
@@ -60,7 +47,7 @@
   - 更多时候，都是通过一些设计软件来制作 svg，当做图片素材引入到项目中。
   - 不要尝试去看设计软件导出的 .svg 的代码，其中大多是由 `<path>` 元素来绘制的，那不是人看的玩意儿，可以说 `<path>` 非常强大，它可以绘制任意路径，但是如果整个图就一个 `<path>` 搞定，那结构是很单一的，想要在某些区域绑定事件就不那么方便了。
 
-## 5. 💻 demos.1 - 来看一个由 path 制作的 logo--react.svg 源码
+## 4. 💻 demos.1 - 来看一个由 path 制作的 logo--react.svg 源码
 
 ```xml
 <svg t="1733711817638" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1597"

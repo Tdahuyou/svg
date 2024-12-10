@@ -337,16 +337,25 @@
 
 ## 7. 复用
 
-- [ ] [0017. 使用 g 作为容器](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md) <!-- [locale](./0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md#1--notes)
+- [x] [0020. 使用 use 引用图形](https://github.com/Tdahuyou/svg/tree/main/0020.%20%E4%BD%BF%E7%94%A8%20use%20%E5%BC%95%E7%94%A8%E5%9B%BE%E5%BD%A2/README.md) <!-- [locale](./0020.%20%E4%BD%BF%E7%94%A8%20use%20%E5%BC%95%E7%94%A8%E5%9B%BE%E5%BD%A2/README.md) -->  
+  - [1. 💻 demos.1 - 使用 use 引用图形](https://github.com/Tdahuyou/svg/tree/main/0020.%20%E4%BD%BF%E7%94%A8%20use%20%E5%BC%95%E7%94%A8%E5%9B%BE%E5%BD%A2/README.md#1--demos1---使用-use-引用图形)
+  - `<use>` 元素允许您在不同位置多次重用或引用同一个定义过的图形对象，如符号、形状、组合图形等，可以减少一些重复代码的书写，提高效率和文件的整洁度。在实际开发中，这玩意儿的使用频率是算蛮高的，更多时候会结合 g、defs 元素一起使用。
+  - **注意事项**：use 中的 x 和 y 是基于引用图形的坐标，而不是坐标系。
   
 
-- [ ] [0020. 使用 use 引用图形](https://github.com/Tdahuyou/svg/tree/main/0020.%20%E4%BD%BF%E7%94%A8%20use%20%E5%BC%95%E7%94%A8%E5%9B%BE%E5%BD%A2/README.md) <!-- [locale](./0020.%20%E4%BD%BF%E7%94%A8%20use%20%E5%BC%95%E7%94%A8%E5%9B%BE%E5%BD%A2/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0020.%20%E4%BD%BF%E7%94%A8%20use%20%E5%BC%95%E7%94%A8%E5%9B%BE%E5%BD%A2/README.md#1--notes)
+- [x] [0017. 使用 g 作为容器](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md) <!-- [locale](./0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md) -->  
+  - [1. 🔗 links](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md#1--links)
+  - [2. 📒 `<g>` 标签简介](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md#2--<g>-标签简介)
+  - [3. 💻 demos.1 - 使用 `<g>` 包裹多个元素实现多次复用](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md#3--demos1---使用-<g>-包裹多个元素实现多次复用)
+  - 你可以将 `<g>` 理解为 html 中的 `<div>` 标签，没有任何实际的特殊效果，仅仅是起到一个容器的角色。
+  - 可以使用 `<g>` 标签，将那些需要复用的元素给一起包裹起来，实现复用多个元素组成的组件。
+  - `<g>` 通常用于配合 `<use>`、`<defs>` 一起使用。
   
 
-- [ ] [0016. 使用 defs 定义图形](https://github.com/Tdahuyou/svg/tree/main/0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md) <!-- [locale](./0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md#1--notes)
+- [x] [0016. 使用 defs 定义图形](https://github.com/Tdahuyou/svg/tree/main/0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md) <!-- [locale](./0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md) -->  
+  - [1. 💻 demos.1 - 使用 defs 定义图形](https://github.com/Tdahuyou/svg/tree/main/0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md#1--demos1---使用-defs-定义图形)
+  - [2. demos.2 - defs + g + use](https://github.com/Tdahuyou/svg/tree/main/0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md#2-demos2---defs-+-g-+-use)
+  - `<defs>` 用于定义图形，使用 `<defs>` 定义的元素不会直接显示，除非被其他 SVG 元素通过引用使用，通常配合 `<use>`、`<g>` 一起使用。
   
 
 ## 8. svg 与 js、html、css 的结合
@@ -407,4 +416,12 @@
 
 - [ ] [0041. 练习 - 绘制动态饼图](https://github.com/Tdahuyou/svg/tree/main/0041.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md) <!-- [locale](./0041.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md) -->  
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0041.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md#1--notes)
+  
+
+
+
+## ⏰ 待分组
+
+- [ ] [0050. 使用 css 控制 svg 样式](https://github.com/Tdahuyou/svg/tree/main/0050.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0050.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md) -->  
+  - [1. ⏰](https://github.com/Tdahuyou/svg/tree/main/0050.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md#1-)
   

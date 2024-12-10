@@ -17,7 +17,7 @@
 
 ## 1. 词库
 
-- [ ] [0049. en-words](https://github.com/Tdahuyou/svg/tree/main/0049.%20en-words/README.md) <!-- [locale](./0049.%20en-words/README.md) -->  
+- [x] [0049. en-words](https://github.com/Tdahuyou/svg/tree/main/0049.%20en-words/README.md) <!-- [locale](./0049.%20en-words/README.md) -->  
   - [1. 📝 词汇列表 - 哪里不会点哪里](https://github.com/Tdahuyou/svg/tree/main/0049.%20en-words/README.md#1--词汇列表---哪里不会点哪里)
   - 记录在学习过程中涉及到的一些英语词汇。
   
@@ -272,17 +272,23 @@
   - [1. 💻 demos.1 - Q 绘制一个贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#1--demos1---q-绘制一个贝塞尔曲线)
   - [2. 💻 demos.2 - Q、T 绘制连续的贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#2--demos2---qt-绘制连续的贝塞尔曲线)
   - [3. 💻 demos.3 - Q、T 绘制连续的贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#3--demos3---qt-绘制连续的贝塞尔曲线)
+  - 二次、三次贝塞尔曲线绘制原理，见 canvas.0025。
   
 
 - [x] [0014. 使用 path 绘制三次贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) <!-- [locale](./0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) -->  
   - [1. 💻 demos.1 - C 绘制一个三次贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#1--demos1---c-绘制一个三次贝塞尔曲线)
   - [2. 💻 demos.2 - C、S 绘制连续平滑的三次贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#2--demos2---cs-绘制连续平滑的三次贝塞尔曲线)
+  - 二次、三次贝塞尔曲线绘制原理，见 canvas.0025。
   
 
 ## 6. 描边和填充
 
 - [ ] [0028. 使用属性 stroke、stroke-width、stroke-opacity、stroke-linecap 设置描边样式](https://github.com/Tdahuyou/svg/tree/main/0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md#1--notes)
+  - [1. 💻 demos.1 - 使用 stroke 相关属性设置描边样式](https://github.com/Tdahuyou/svg/tree/main/0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md#1--demos1---使用-stroke-相关属性设置描边样式)
+  - stroke：设置描边颜色（边框）
+  - stroke-width：设置描边粗细
+  - stroke-opacity：设置描边颜色的透明度
+  - stroke-linecap：设置线段两端的形状
   
 
 - [ ] [0027. 使用属性 stroke-linejoin 设置线条连接处样式](https://github.com/Tdahuyou/svg/tree/main/0027.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-linejoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0027.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-linejoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E6%A0%B7%E5%BC%8F/README.md) -->  

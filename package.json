@@ -5,5 +5,11 @@
         "distribute": "      node ./node_modules/tnotes   --distributeREADME    --repoName=svg",
         "sync": "            node ./node_modules/tnotes   --syncREADME          --repoName=svg",
         "docs:publish": "    node ./node_modules/tnotes/scripts/docs-publish.js"
+    },
+    "tnotesConfig": {
+      "ignoreDirs": [
+        ".vscode",
+        ".git"
+      ]
     }
 }

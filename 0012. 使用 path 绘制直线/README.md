@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 💻 demos.1 - 绘制直线的多种写法](#1--demos1---绘制直线的多种写法)
-- [2. 💻 demos.2 - 一个 `<path>` 允许多个 `M`](#2--demos2---一个-<path>-允许多个-m)
+- [2. 💻 demos.2 - 一个 `<path>` 允许多个 `M`](#2--demos2---一个-path-允许多个-m)
 - [3. 💻 demos.3 - 关键字的大小写有着不同的含义](#3--demos3---关键字的大小写有着不同的含义)
 - [4. 💻 demos.4 - H、V、Z 关键字](#4--demos4---hvz-关键字)
 <!-- endregion:toc -->

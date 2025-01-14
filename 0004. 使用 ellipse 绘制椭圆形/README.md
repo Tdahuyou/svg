@@ -1,7 +1,7 @@
 # [0004. 使用 ellipse 绘制椭圆形](https://github.com/Tdahuyou/svg/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2)
 
 <!-- region:toc -->
-- [1. 💻 demos.1 - 使用 `<ellipse>` 绘制椭圆形](#1--demos1---使用-<ellipse>-绘制椭圆形)
+- [1. 💻 demos.1 - 使用 `<ellipse>` 绘制椭圆形](#1--demos1---使用-ellipse-绘制椭圆形)
 <!-- endregion:toc -->
 - 绘制椭圆需要知道的信息：
   1. 椭圆的圆心 cx cy

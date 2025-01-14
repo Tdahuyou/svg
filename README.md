@@ -11,8 +11,8 @@
   - [5. path 路径](#5-path-路径)
   - [6. stroke 描边和 fill 填充](#6-stroke-描边和-fill-填充)
   - [7. 复用](#7-复用)
-  - [8. svg + css](#8-svg-+-css)
-  - [9. svg + js](#9-svg-+-js)
+  - [8. svg + css](#8-svg--css)
+  - [9. svg + js](#9-svg--js)
   - [10. 练习](#10-练习)
 <!-- endregion:toc -->
 
@@ -62,8 +62,8 @@
 
 - [ ] [0046. 理解 svg 的 xmlns 属性](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md) <!-- [locale](./0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md) -->  
   - [1. 🔗 菜鸟教程 - xml 命名空间](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#1--菜鸟教程---xml-命名空间)
-  - [2. 💻 demos.1 - 带有命名空间 `xmlns="http://www.w3.org/2000/svg"`](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#2--demos1---带有命名空间-xmlns="httpwwww3org2000svg")
-  - [3. 💻 demos.2 - 不带命名空间 `xmlns="http://www.w3.org/2000/svg"`](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#3--demos2---不带命名空间-xmlns="httpwwww3org2000svg")
+  - [2. 💻 demos.1 - 带有命名空间 `xmlns="http://www.w3.org/2000/svg"`](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#2--demos1---带有命名空间-xmlnshttpwwww3org2000svg)
+  - [3. 💻 demos.2 - 不带命名空间 `xmlns="http://www.w3.org/2000/svg"`](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#3--demos2---不带命名空间-xmlnshttpwwww3org2000svg)
   - [4. 📒 结果分析](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#4--结果分析)
   - [5. 💻 demos.3 - 在 html 中嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#5--demos3---在-html-中嵌入-svg)
   - [6. 🤔 知道本节的内容有啥用呢？](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#6--知道本节的内容有啥用呢)
@@ -123,10 +123,10 @@
   - [2. 💻 demos.2 - 指定 viewBox 正好装下图形](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#2--demos2---指定-viewbox-正好装下图形)
   - [3. 💻 demos.3 - 指定的 viewBox 区域看不到图形](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#3--demos3---指定的-viewbox-区域看不到图形)
   - [4. 💻 demos.4 - 根据 demos.3 中的图形位置修改 viewBox 的值](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#4--demos4---根据-demos3-中的图形位置修改-viewbox-的值)
-  - [5. 🤔 Q&A](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#5--q&a)
+  - [5. 🤔 Q&A](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#5--qa)
     - [5.1. 问：svg 中坐标系有多大？](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#51-问svg-中坐标系有多大)
-    - [5.2. 问：`<svg>` 的 width、height 有什么用？](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#52-问<svg>-的-widthheight-有什么用)
-    - [5.3. 问：`<svg>` 的 width、height 都设置为 500，那么看到的坐标系是哪块区域呢？](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#53-问<svg>-的-widthheight-都设置为-500那么看到的坐标系是哪块区域呢)
+    - [5.2. 问：`<svg>` 的 width、height 有什么用？](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#52-问svg-的-widthheight-有什么用)
+    - [5.3. 问：`<svg>` 的 width、height 都设置为 500，那么看到的坐标系是哪块区域呢？](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#53-问svg-的-widthheight-都设置为-500那么看到的坐标系是哪块区域呢)
   - viewBox 视口，这是一个对于 svg 初学者来说不那么好理解的属性。
   - 其实 viewBox 这个词已经描述得很到位了，view 看，box 盒子，其中盒子可以理解为一个矩形区域 —— viewBox 表示你要看哪一块矩形区域。
   - 可以结合着 `Q&A` 中提到的问题来理解 viewBox 属性。
@@ -135,13 +135,13 @@
 ## 4. 基本图形绘制
 
 - [ ] [0005. 使用 line 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) <!-- [locale](./0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) -->  
-  - [1. 💻 demos.1 - 使用 `<line>` 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#1--demos1---使用-<line>-绘制直线)
+  - [1. 💻 demos.1 - 使用 `<line>` 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#1--demos1---使用-line-绘制直线)
   - 绘制直线，只需要明确起点坐标 `(x1, y1)` 和终点坐标 `(x2, y2)` 即可。
   
 
 - [ ] [0007. 使用 polyline 绘制折线](https://github.com/Tdahuyou/svg/tree/main/0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md) <!-- [locale](./0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md) -->  
-  - [1. 💻 demos.1 - 使用 `<polyline>` 绘制折线](https://github.com/Tdahuyou/svg/tree/main/0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md#1--demos1---使用-<polyline>-绘制折线)
-  - [2. 💻 demos.2 - 使用 `<polyline>` 绘制折线并填充](https://github.com/Tdahuyou/svg/tree/main/0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md#2--demos2---使用-<polyline>-绘制折线并填充)
+  - [1. 💻 demos.1 - 使用 `<polyline>` 绘制折线](https://github.com/Tdahuyou/svg/tree/main/0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md#1--demos1---使用-polyline-绘制折线)
+  - [2. 💻 demos.2 - 使用 `<polyline>` 绘制折线并填充](https://github.com/Tdahuyou/svg/tree/main/0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md#2--demos2---使用-polyline-绘制折线并填充)
   - 绘制折线的写法很简单，挨个标注点，渲染的时候会按照顺序将我们写的点连起来形成折线。
   
 
@@ -156,7 +156,7 @@
   
 
 - [ ] [0006. 使用 polygon 绘制多边形](https://github.com/Tdahuyou/svg/tree/main/0006.%20%E4%BD%BF%E7%94%A8%20polygon%20%E7%BB%98%E5%88%B6%E5%A4%9A%E8%BE%B9%E5%BD%A2/README.md) <!-- [locale](./0006.%20%E4%BD%BF%E7%94%A8%20polygon%20%E7%BB%98%E5%88%B6%E5%A4%9A%E8%BE%B9%E5%BD%A2/README.md) -->  
-  - [1. 💻 demos.1 - 使用 `<polygon>` 绘制多边形](https://github.com/Tdahuyou/svg/tree/main/0006.%20%E4%BD%BF%E7%94%A8%20polygon%20%E7%BB%98%E5%88%B6%E5%A4%9A%E8%BE%B9%E5%BD%A2/README.md#1--demos1---使用-<polygon>-绘制多边形)
+  - [1. 💻 demos.1 - 使用 `<polygon>` 绘制多边形](https://github.com/Tdahuyou/svg/tree/main/0006.%20%E4%BD%BF%E7%94%A8%20polygon%20%E7%BB%98%E5%88%B6%E5%A4%9A%E8%BE%B9%E5%BD%A2/README.md#1--demos1---使用-polygon-绘制多边形)
    
 
 - [ ] [0003. 使用 circle 绘制圆形](https://github.com/Tdahuyou/svg/tree/main/0003.%20%E4%BD%BF%E7%94%A8%20circle%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BD%A2/README.md) <!-- [locale](./0003.%20%E4%BD%BF%E7%94%A8%20circle%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BD%A2/README.md) -->  
@@ -168,7 +168,7 @@
   
 
 - [ ] [0004. 使用 ellipse 绘制椭圆形](https://github.com/Tdahuyou/svg/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md) <!-- [locale](./0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md) -->  
-  - [1. 💻 demos.1 - 使用 `<ellipse>` 绘制椭圆形](https://github.com/Tdahuyou/svg/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md#1--demos1---使用-<ellipse>-绘制椭圆形)
+  - [1. 💻 demos.1 - 使用 `<ellipse>` 绘制椭圆形](https://github.com/Tdahuyou/svg/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md#1--demos1---使用-ellipse-绘制椭圆形)
   - 绘制椭圆需要知道的信息：
     1. 椭圆的圆心 cx cy
     2. 椭圆的 x 轴半径 rx
@@ -235,7 +235,7 @@
 
 - [ ] [0012. 使用 path 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) <!-- [locale](./0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) -->  
   - [1. 💻 demos.1 - 绘制直线的多种写法](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#1--demos1---绘制直线的多种写法)
-  - [2. 💻 demos.2 - 一个 `<path>` 允许多个 `M`](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#2--demos2---一个-<path>-允许多个-m)
+  - [2. 💻 demos.2 - 一个 `<path>` 允许多个 `M`](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#2--demos2---一个-path-允许多个-m)
   - [3. 💻 demos.3 - 关键字的大小写有着不同的含义](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#3--demos3---关键字的大小写有着不同的含义)
   - [4. 💻 demos.4 - H、V、Z 关键字](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#4--demos4---hvz-关键字)
   - `<path>` 可以用于绘制直线，涉及到的关键字：`M/m`、`L/l`、`H`、`V`、`Z`。
@@ -251,10 +251,10 @@
   
 
 - [ ] [0011. 使用 path 绘制弧](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md) <!-- [locale](./0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md) -->  
-  - [1. 💻 demos.1 - 使用 `<path>` 绘制弧](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#1--demos1---使用-<path>-绘制弧)
+  - [1. 💻 demos.1 - 使用 `<path>` 绘制弧](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#1--demos1---使用-path-绘制弧)
   - [2. 💻 demos.2 - 椭圆旋转](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#2--demos2---椭圆旋转)
   - [3. 💻 demos.3 - 两点决定 4 条弧](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#3--demos3---两点决定-4-条弧)
-  - [4. 🤔 Q&A](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#4--q&a)
+  - [4. 🤔 Q&A](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#4--qa)
     - [4.1. 问：指定一个起点坐标和一个终点坐标，一共可以绘制几条弧呢？](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#41-问指定一个起点坐标和一个终点坐标一共可以绘制几条弧呢)
     - [4.2. 问：如果起点和终点以及半径都保持不变的话，一共可以绘制几条弧呢？](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#42-问如果起点和终点以及半径都保持不变的话一共可以绘制几条弧呢)
     - [4.3. 问：如果 rx ry 是相同的值，那么旋转还有意义吗？](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#43-问如果-rx-ry-是相同的值那么旋转还有意义吗)
@@ -264,7 +264,7 @@
   
 
 - [ ] [0036. 绘制【群】图标](https://github.com/Tdahuyou/svg/tree/main/0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
-  - [1. 💻 demos.1 - 绘制「群」图标](https://github.com/Tdahuyou/svg/tree/main/0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--demos1---绘制「群」图标)
+  - [1. 💻 demos.1 - 绘制「群」图标](https://github.com/Tdahuyou/svg/tree/main/0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--demos1---绘制群图标)
   - 本节涉及的知识点：使用 `path` 标签来绘制弧。【svg.0011】
   - 能够理解这个群的图标其实就是通过几段弧绘制出来的即可。
   
@@ -346,8 +346,8 @@
 
 - [ ] [0017. 使用 g 作为容器](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md) <!-- [locale](./0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md) -->  
   - [1. 🔗 links](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md#1--links)
-  - [2. 📒 `<g>` 标签简介](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md#2--<g>-标签简介)
-  - [3. 💻 demos.1 - 使用 `<g>` 包裹多个元素实现多次复用](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md#3--demos1---使用-<g>-包裹多个元素实现多次复用)
+  - [2. 📒 `<g>` 标签简介](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md#2--g-标签简介)
+  - [3. 💻 demos.1 - 使用 `<g>` 包裹多个元素实现多次复用](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md#3--demos1---使用-g-包裹多个元素实现多次复用)
   - 你可以将 `<g>` 理解为 html 中的 `<div>` 标签，没有任何实际的特殊效果，仅仅是起到一个容器的角色。
   - 可以使用 `<g>` 标签，将那些需要复用的元素给一起包裹起来，实现复用多个元素组成的组件。
   - `<g>` 通常用于配合 `<use>`、`<defs>` 一起使用。
@@ -355,7 +355,7 @@
 
 - [ ] [0016. 使用 defs 定义图形](https://github.com/Tdahuyou/svg/tree/main/0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md) <!-- [locale](./0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md) -->  
   - [1. 💻 demos.1 - 使用 defs 定义图形](https://github.com/Tdahuyou/svg/tree/main/0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md#1--demos1---使用-defs-定义图形)
-  - [2. demos.2 - defs + g + use](https://github.com/Tdahuyou/svg/tree/main/0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md#2-demos2---defs-+-g-+-use)
+  - [2. demos.2 - defs + g + use](https://github.com/Tdahuyou/svg/tree/main/0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md#2-demos2---defs--g--use)
   - `<defs>` 用于定义图形，使用 `<defs>` 定义的元素不会直接显示，除非被其他 SVG 元素通过引用使用，通常配合 `<use>`、`<g>` 一起使用。
   
 

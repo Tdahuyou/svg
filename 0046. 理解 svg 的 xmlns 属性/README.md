@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 - [1. 🔗 菜鸟教程 - xml 命名空间](#1--菜鸟教程---xml-命名空间)
-- [2. 💻 demos.1 - 带有命名空间 `xmlns="http://www.w3.org/2000/svg"`](#2--demos1---带有命名空间-xmlns="httpwwww3org2000svg")
-- [3. 💻 demos.2 - 不带命名空间 `xmlns="http://www.w3.org/2000/svg"`](#3--demos2---不带命名空间-xmlns="httpwwww3org2000svg")
+- [2. 💻 demos.1 - 带有命名空间 `xmlns="http://www.w3.org/2000/svg"`](#2--demos1---带有命名空间-xmlnshttpwwww3org2000svg)
+- [3. 💻 demos.2 - 不带命名空间 `xmlns="http://www.w3.org/2000/svg"`](#3--demos2---不带命名空间-xmlnshttpwwww3org2000svg)
 - [4. 📒 结果分析](#4--结果分析)
 - [5. 💻 demos.3 - 在 html 中嵌入 svg](#5--demos3---在-html-中嵌入-svg)
 - [6. 🤔 知道本节的内容有啥用呢？](#6--知道本节的内容有啥用呢)

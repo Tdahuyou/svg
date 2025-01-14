@@ -5,10 +5,10 @@
 - [2. 💻 demos.2 - 指定 viewBox 正好装下图形](#2--demos2---指定-viewbox-正好装下图形)
 - [3. 💻 demos.3 - 指定的 viewBox 区域看不到图形](#3--demos3---指定的-viewbox-区域看不到图形)
 - [4. 💻 demos.4 - 根据 demos.3 中的图形位置修改 viewBox 的值](#4--demos4---根据-demos3-中的图形位置修改-viewbox-的值)
-- [5. 🤔 Q&A](#5--q&a)
+- [5. 🤔 Q&A](#5--qa)
   - [5.1. 问：svg 中坐标系有多大？](#51-问svg-中坐标系有多大)
-  - [5.2. 问：`<svg>` 的 width、height 有什么用？](#52-问<svg>-的-widthheight-有什么用)
-  - [5.3. 问：`<svg>` 的 width、height 都设置为 500，那么看到的坐标系是哪块区域呢？](#53-问<svg>-的-widthheight-都设置为-500那么看到的坐标系是哪块区域呢)
+  - [5.2. 问：`<svg>` 的 width、height 有什么用？](#52-问svg-的-widthheight-有什么用)
+  - [5.3. 问：`<svg>` 的 width、height 都设置为 500，那么看到的坐标系是哪块区域呢？](#53-问svg-的-widthheight-都设置为-500那么看到的坐标系是哪块区域呢)
 <!-- endregion:toc -->
 - viewBox 视口，这是一个对于 svg 初学者来说不那么好理解的属性。
 - 其实 viewBox 这个词已经描述得很到位了，view 看，box 盒子，其中盒子可以理解为一个矩形区域 —— viewBox 表示你要看哪一块矩形区域。

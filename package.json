@@ -226,12 +226,12 @@
       },
       "0043": {
         "bilibili": [],
-        "done": false,
+        "done": true,
         "ignore": false
       },
       "0044": {
         "bilibili": [],
-        "done": false,
+        "done": true,
         "ignore": false
       },
       "0045": {
@@ -256,7 +256,7 @@
       },
       "0049": {
         "bilibili": [],
-        "done": false,
+        "done": true,
         "ignore": false
       },
       "assets": {

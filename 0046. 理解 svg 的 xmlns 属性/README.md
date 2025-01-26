@@ -22,7 +22,7 @@
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"> <!-- !code highlight -->
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"> // !code highlisht
   <circle cx="50" cy="50" r="20" fill="red" />
 </svg>
 ```
@@ -35,7 +35,7 @@
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="100" height="100"> <!-- !code highlight -->
+<svg width="100" height="100"> // !code highlisht
   <circle cx="50" cy="50" r="20" fill="red" />
 </svg>
 ```
@@ -64,14 +64,14 @@
     <div class="svg-box">
       <p>svg-1 带 xmlns</p>
       <?xml version="1.0" encoding="UTF-8"?>
-      <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"> <!-- !code highlight -->
+      <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"> // !code highlisht
         <circle cx="50" cy="50" r="20" fill="red" />
       </svg>
     </div>
     <div class="svg-box">
       <p>svg-2 不带 xmlns</p>
       <?xml version="1.0" encoding="UTF-8"?>
-      <svg width="100" height="100"> <!-- !code highlight -->
+      <svg width="100" height="100"> // !code highlisht
         <circle cx="50" cy="50" r="20" fill="red" />
       </svg>
     </div>
@@ -113,7 +113,7 @@
 
 ```xml [2.svg 有命名空间]
 <svg class="logo" viewBox="0 0 128 128" width="24" height="24" data-v-f32e683e=""
-  xmlns="http://www.w3.org/2000/svg"> <!-- !code highlight -->
+  xmlns="http://www.w3.org/2000/svg"> // !code highlisht
     <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z" data-v-f32e683e=""></path>
     <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-f32e683e=""></path>
 </svg>

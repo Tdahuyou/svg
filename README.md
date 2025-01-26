@@ -11,9 +11,10 @@
   - [5. path 路径](#5-path-路径)
   - [6. stroke 描边和 fill 填充](#6-stroke-描边和-fill-填充)
   - [7. 复用](#7-复用)
-  - [8. svg + css](#8-svg--css)
-  - [9. svg + js](#9-svg--js)
-  - [10. 练习](#10-练习)
+  - [8. svg + html](#8-svg--html)
+  - [9. svg + css](#9-svg--css)
+  - [10. svg + js](#10-svg--js)
+  - [11. 练习](#11-练习)
 <!-- endregion:toc -->
 
 ## 1. 词库
@@ -88,7 +89,7 @@
   - 有关插件的详细描述说明，可自行查阅插件对应的官方文档，文中仅仅是对插件功能的简单描述。
   
 
-- [ ] [0001. 在 html 中嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md) <!-- [locale](./0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md) -->  
+- [x] [0001. 在 html 中嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md) <!-- [locale](./0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md) -->  
   - [1. 💻 demos.1 - 准备测试用的 svg 图形](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md#1--demos1---准备测试用的-svg-图形)
   - [2. 💻 demos.2 - 通过 img 标签来嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md#2--demos2---通过-img-标签来嵌入-svg)
   - [3. 💻 demos.3 - 通过直接嵌入源码的方式来嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md#3--demos3---通过直接嵌入源码的方式来嵌入-svg)
@@ -359,7 +360,23 @@
   - `<defs>` 用于定义图形，使用 `<defs>` 定义的元素不会直接显示，除非被其他 SVG 元素通过引用使用，通常配合 `<use>`、`<g>` 一起使用。
   
 
-## 8. svg + css
+## 8. svg + html
+
+- [x] [0001. 在 html 中嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md) <!-- [locale](./0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md) -->  
+  - [1. 💻 demos.1 - 准备测试用的 svg 图形](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md#1--demos1---准备测试用的-svg-图形)
+  - [2. 💻 demos.2 - 通过 img 标签来嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md#2--demos2---通过-img-标签来嵌入-svg)
+  - [3. 💻 demos.3 - 通过直接嵌入源码的方式来嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md#3--demos3---通过直接嵌入源码的方式来嵌入-svg)
+  - [4. 💻 demos.4 - 通过 iframe 来嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md#4--demos4---通过-iframe-来嵌入-svg)
+  - [5. 💻 demos.5 - 通过 object 标签来嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md#5--demos5---通过-object-标签来嵌入-svg)
+  - 本文介绍了在 html 文件中引入 svg 资源的实现方式，可以通过下面这 4 种方式来在 html 中嵌入 svg：
+    1. 通过 img 标签来嵌入 svg
+    2. 通过直接嵌入源码的方式来嵌入 svg
+    3. 通过 iframe 来嵌入 svg
+    4. 通过 object 来嵌入 svg
+  - 如果你写好了一个 svg 文件，想要知道如何将其引入到前端页面上，可以参考下文中提到的一些做法。
+  
+
+## 9. svg + css
 
 - [ ] [0021. 使用 css 控制 svg 样式](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md) -->  
   - [1. 📒 使用 CSS 控制 SVG 样式的注意事项](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md#1--使用-css-控制-svg-样式的注意事项)
@@ -369,7 +386,7 @@
   - 不是很重要，快速过～
   
 
-## 9. svg + js
+## 10. svg + js
 
 - [ ] [0022. 使用 js 控制 svg 实现 CRUD 操作](https://github.com/Tdahuyou/svg/tree/main/0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.md) <!-- [locale](./0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.md) -->  
   - [1. 🔗 snapsvg](https://github.com/Tdahuyou/svg/tree/main/0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.md#1--snapsvg)
@@ -381,7 +398,7 @@
   - 如果不清楚 CRUD 是什么，可以见结尾的 Q&A。
   
 
-## 10. 练习
+## 11. 练习
 
 - 0013
 - 0023

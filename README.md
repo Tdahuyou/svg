@@ -19,7 +19,7 @@
 ## 1. 词库
 
 - [ ] [0049. en-words](https://github.com/Tdahuyou/svg/tree/main/0049.%20en-words/README.md) <!-- [locale](./0049.%20en-words/README.md) -->  
-  - [1. 📝 词汇列表 - 哪里不会点哪里](https://github.com/Tdahuyou/svg/tree/main/0049.%20en-words/README.md#1--词汇列表---哪里不会点哪里)
+  - [1. 📝 词汇列表](https://github.com/Tdahuyou/svg/tree/main/0049.%20en-words/README.md#1--词汇列表)
   - 记录在学习过程中涉及到的一些英语词汇。
   
 

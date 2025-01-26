@@ -55,14 +55,14 @@
     - **如果你的项目涉及到复杂的动画、游戏或需要大量动态图形处理，Canvas 将可能提供更好的性能和灵活性。**
   
 
-- [ ] [0045. 区分 Image 和 Graphic](https://github.com/Tdahuyou/svg/tree/main/0045.%20%E5%8C%BA%E5%88%86%20Image%20%E5%92%8C%20Graphic/README.md) <!-- [locale](./0045.%20%E5%8C%BA%E5%88%86%20Image%20%E5%92%8C%20Graphic/README.md) -->  
+- [x] [0045. 区分 Image 和 Graphic](https://github.com/Tdahuyou/svg/tree/main/0045.%20%E5%8C%BA%E5%88%86%20Image%20%E5%92%8C%20Graphic/README.md) <!-- [locale](./0045.%20%E5%8C%BA%E5%88%86%20Image%20%E5%92%8C%20Graphic/README.md) -->  
   - [1. 📒 Image vs. Graphic](https://github.com/Tdahuyou/svg/tree/main/0045.%20%E5%8C%BA%E5%88%86%20Image%20%E5%92%8C%20Graphic/README.md#1--image-vs-graphic)
   - 图像（Image）通常指的是 **像素数据的集合**，这些数据以栅格或点阵的形式存储。
   - 图形（Graphic）更多指的是 **通过数学表达式定义的图形**，例如 SVG 中的形状（圆形、矩形、路径等）。
   - 备注：自己能够理解 Image vs. Graphic 之间的区别即可，没必要死扣图形、图像两者的区别。从中文表述层面来看，它们大多时候都是被混用的，图、图形、图像，在书面表达中我们通常会将其视作同样的东西。比如：“A：请使用 canvas 绘制一个图形，要求颜色是……”，“B：不对，canvas 画的是图像（巴拉巴拉）” —— 没必要。
   
 
-- [ ] [0046. 理解 svg 的 xmlns 属性](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md) <!-- [locale](./0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md) -->  
+- [x] [0046. 理解 svg 的 xmlns 属性](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md) <!-- [locale](./0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md) -->  
   - [1. 🔗 菜鸟教程 - xml 命名空间](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#1--菜鸟教程---xml-命名空间)
   - [2. 💻 demos.1 - 带有命名空间 `xmlns="http://www.w3.org/2000/svg"`](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#2--demos1---带有命名空间-xmlnshttpwwww3org2000svg)
   - [3. 💻 demos.2 - 不带命名空间 `xmlns="http://www.w3.org/2000/svg"`](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#3--demos2---不带命名空间-xmlnshttpwwww3org2000svg)
@@ -71,7 +71,7 @@
   - [6. 🤔 知道本节的内容有啥用呢？](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#6--知道本节的内容有啥用呢)
   - [7. 💻 demos.4 - 在线搬运的 .svg 需要注意 xmlns 声明是否缺失](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#7--demos4---在线搬运的-svg-需要注意-xmlns-声明是否缺失)
   - 本节介绍的是 xmlns，这是一个属性，用于指定 XML 文档的命名空间。它决定了 svg 文件是否能够被正常渲染，在正式开始学习 svg 的绘图规则之前，有必要了解一下 `xmlns="http://www.w3.org/2000/svg"` 这条声明的作用。
-  - 本节内容：模拟一个要求 - 在 100*100 的视口中，渲染一个圆心位置是 `(50, 50)`，半径是 `20` 的红色圆形，然后通过 demos 来对比带命名空间和不带命名空间的区别。
+  - 本节内容：模拟一个要求 - 在 `100*100` 的视口中，渲染一个圆心位置是 `(50, 50)`，半径是 `20` 的红色圆形，然后通过 demos 来对比带命名空间和不带命名空间的区别。
   
 
 - [ ] [0047. 理解 svg 的 version 属性](https://github.com/Tdahuyou/svg/tree/main/0047.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20version%20%E5%B1%9E%E6%80%A7/README.md) <!-- [locale](./0047.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20version%20%E5%B1%9E%E6%80%A7/README.md) -->  

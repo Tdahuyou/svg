@@ -16,7 +16,7 @@
     stroke="blue" // [!code highlight]
     stroke-width="1" // [!code highlight]
     opacity=".3" // [!code highlight]
-  /> // [!code highlight]
+  /> <!-- [!code highlight] -->
 </svg>
 ```
 

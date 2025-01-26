@@ -241,42 +241,42 @@
   - `<path>` 可以用于绘制直线，涉及到的关键字：`M/m`、`L/l`、`H`、`V`、`Z`。
   
 
-- [ ] [0013. 绘制【扫码】图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
+- [x] [0013. 绘制【扫码】图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
   - [1. 🔗 iconfont 图标库](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--iconfont-图标库)
-  - [2. iconfont 扫码图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md#2-iconfont-扫码图标)
-  - [3. 💻 demos.1 - 绘制扫码图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md#3--demos1---绘制扫码图标)
-  - svg 经常被用来设计一些图标，一些非常简单的可以直接手写，不过更多时候还是使用设计软件制作。在学习 svg 的过程中，可以自己找几个简单的图标来自行练习一下。
+  - [2. 💻 demos.1 - 绘制扫码图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md#2--demos1---绘制扫码图标)
+  - **svg 经常被用来设计一些图标，一些非常简单的可以直接手写，不过更多时候还是使用设计软件制作。**
+  - 在学习 svg 的过程中，可以自己找几个简单的图标来自行练习一下。
   - 示例中绘制的扫码图标，使用的是 `<path>` 绘制直线的相关知识来实现的。
   - 能够看懂代码就行。实现方式不唯一，做法有很多种，比如一条条地绘制 `<line>` 也行。
   
 
-- [ ] [0011. 使用 path 绘制弧](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md) <!-- [locale](./0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md) -->  
+- [x] [0011. 使用 path 绘制弧](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md) <!-- [locale](./0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md) -->  
   - [1. 💻 demos.1 - 使用 `<path>` 绘制弧](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#1--demos1---使用-path-绘制弧)
   - [2. 💻 demos.2 - 椭圆旋转](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#2--demos2---椭圆旋转)
   - [3. 💻 demos.3 - 两点决定 4 条弧](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#3--demos3---两点决定-4-条弧)
-  - [4. 🤔 Q&A](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#4--qa)
-    - [4.1. 问：指定一个起点坐标和一个终点坐标，一共可以绘制几条弧呢？](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#41-问指定一个起点坐标和一个终点坐标一共可以绘制几条弧呢)
-    - [4.2. 问：如果起点和终点以及半径都保持不变的话，一共可以绘制几条弧呢？](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#42-问如果起点和终点以及半径都保持不变的话一共可以绘制几条弧呢)
-    - [4.3. 问：如果 rx ry 是相同的值，那么旋转还有意义吗？](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#43-问如果-rx-ry-是相同的值那么旋转还有意义吗)
+  - [4. 🤔 指定一个起点坐标和一个终点坐标，一共可以绘制几条弧呢？](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#4--指定一个起点坐标和一个终点坐标一共可以绘制几条弧呢)
+  - [5. 🤔 如果起点和终点以及半径都保持不变的话，一共可以绘制几条弧呢？](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#5--如果起点和终点以及半径都保持不变的话一共可以绘制几条弧呢)
+  - [6. 🤔 如果 rx ry 是相同的值，那么旋转还有意义吗？](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#6--如果-rx-ry-是相同的值那么旋转还有意义吗)
   - 涉及到的关键字：`A`
   - A 的参数有些多，可以结合 demos 来理解这些关键字的作用及含义。
   - 通过思考结尾的 `Q&A` 部分提到的一些问题，有助于加深对本节内容的理解。
   
 
-- [ ] [0036. 绘制【群】图标](https://github.com/Tdahuyou/svg/tree/main/0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
+- [x] [0036. 绘制【群】图标](https://github.com/Tdahuyou/svg/tree/main/0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
   - [1. 💻 demos.1 - 绘制「群」图标](https://github.com/Tdahuyou/svg/tree/main/0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--demos1---绘制群图标)
-  - 本节涉及的知识点：使用 `path` 标签来绘制弧。【svg.0011】
+  - 本节涉及的知识点：使用 `path` 标签来绘制弧。
+    - `svg.0011`
   - 能够理解这个群的图标其实就是通过几段弧绘制出来的即可。
   
 
-- [ ] [0010. 使用 path 绘制二次贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) <!-- [locale](./0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) -->  
+- [x] [0010. 使用 path 绘制二次贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) <!-- [locale](./0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) -->  
   - [1. 💻 demos.1 - Q 绘制一个贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#1--demos1---q-绘制一个贝塞尔曲线)
   - [2. 💻 demos.2 - Q、T 绘制连续的贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#2--demos2---qt-绘制连续的贝塞尔曲线)
   - [3. 💻 demos.3 - Q、T 绘制连续的贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#3--demos3---qt-绘制连续的贝塞尔曲线)
   - 二次、三次贝塞尔曲线绘制原理，见 canvas.0025。
   
 
-- [ ] [0014. 使用 path 绘制三次贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) <!-- [locale](./0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) -->  
+- [x] [0014. 使用 path 绘制三次贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) <!-- [locale](./0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) -->  
   - [1. 💻 demos.1 - C 绘制一个三次贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#1--demos1---c-绘制一个三次贝塞尔曲线)
   - [2. 💻 demos.2 - C、S 绘制连续平滑的三次贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#2--demos2---cs-绘制连续平滑的三次贝塞尔曲线)
   - 二次、三次贝塞尔曲线绘制原理，见 canvas.0025。
@@ -284,7 +284,7 @@
 
 ## 6. stroke 描边和 fill 填充
 
-- [ ] [0028. 使用属性 stroke、stroke-width、stroke-opacity、stroke-linecap 设置描边样式](https://github.com/Tdahuyou/svg/tree/main/0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md) -->  
+- [x] [0028. 使用属性 stroke、stroke-width、stroke-opacity、stroke-linecap 设置描边样式](https://github.com/Tdahuyou/svg/tree/main/0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md) -->  
   - [1. 💻 demos.1 - 使用 stroke 相关属性设置描边样式](https://github.com/Tdahuyou/svg/tree/main/0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md#1--demos1---使用-stroke-相关属性设置描边样式)
   - stroke：设置描边颜色（边框）
   - stroke-width：设置描边粗细
@@ -292,24 +292,26 @@
   - stroke-linecap：设置线段两端的形状
   
 
-- [ ] [0027. 使用属性 stroke-linejoin 设置线条连接处样式](https://github.com/Tdahuyou/svg/tree/main/0027.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-linejoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0027.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-linejoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E6%A0%B7%E5%BC%8F/README.md) -->  
+- [x] [0027. 使用属性 stroke-linejoin 设置线条连接处样式](https://github.com/Tdahuyou/svg/tree/main/0027.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-linejoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0027.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-linejoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E6%A0%B7%E5%BC%8F/README.md) -->  
   - [1. 💻 demos.1 - 使用属性 stroke-linejoin 设置线条连接处样式](https://github.com/Tdahuyou/svg/tree/main/0027.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-linejoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E6%A0%B7%E5%BC%8F/README.md#1--demos1---使用属性-stroke-linejoin-设置线条连接处样式)
   - miter	`>`	尖角
   - round `)` 圆角
   - bevel `]`	平角
   
 
-- [ ] [0025. 使用属性 stroke-dasharray 设置虚线](https://github.com/Tdahuyou/svg/tree/main/0025.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dasharray%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README.md) <!-- [locale](./0025.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dasharray%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0025.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dasharray%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README.md#1--notes)
+- [x] [0025. 使用属性 stroke-dasharray 设置虚线](https://github.com/Tdahuyou/svg/tree/main/0025.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dasharray%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README.md) <!-- [locale](./0025.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dasharray%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README.md) -->  
+  - [1. 💻 demos.1 - 使用属性 stroke-dasharray 设置虚线](https://github.com/Tdahuyou/svg/tree/main/0025.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dasharray%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README.md#1--demos1---使用属性-stroke-dasharray-设置虚线)
+  - path 中的 stroke-dasharray 属性可以用虚线设置描边。
+  - 属性值设置的是虚线区域的长度和空白区域的长度。
   
 
-- [ ] [0026. 使用属性 stroke-dashoffset 设置虚线的偏移](https://github.com/Tdahuyou/svg/tree/main/0026.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dashoffset%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF%E7%9A%84%E5%81%8F%E7%A7%BB/README.md) <!-- [locale](./0026.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dashoffset%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF%E7%9A%84%E5%81%8F%E7%A7%BB/README.md) -->  
+- [x] [0026. 使用属性 stroke-dashoffset 设置虚线的偏移](https://github.com/Tdahuyou/svg/tree/main/0026.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dashoffset%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF%E7%9A%84%E5%81%8F%E7%A7%BB/README.md) <!-- [locale](./0026.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dashoffset%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF%E7%9A%84%E5%81%8F%E7%A7%BB/README.md) -->  
   - [1. 💻 demos.1 - 使用属性 stroke-dashoffset 设置虚线的偏移](https://github.com/Tdahuyou/svg/tree/main/0026.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dashoffset%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF%E7%9A%84%E5%81%8F%E7%A7%BB/README.md#1--demos1---使用属性-stroke-dashoffset-设置虚线的偏移)
   - stroke-dashoffset、stroke-dasharray 这两个属性配合使用，可以实现一些常见的线条移动的动画效果。
   
 
-- [ ] [0023. 使用 stroke-dasharray 模拟加载中动画效果](https://github.com/Tdahuyou/svg/tree/main/0023.%20%E4%BD%BF%E7%94%A8%20stroke-dasharray%20%E6%A8%A1%E6%8B%9F%E5%8A%A0%E8%BD%BD%E4%B8%AD%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/README.md) <!-- [locale](./0023.%20%E4%BD%BF%E7%94%A8%20stroke-dasharray%20%E6%A8%A1%E6%8B%9F%E5%8A%A0%E8%BD%BD%E4%B8%AD%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/README.md) -->  
-  - [1. 💻 demos.1 - 使用 stroke-dasharray 模拟加载中动画效果](https://github.com/Tdahuyou/svg/tree/main/0023.%20%E4%BD%BF%E7%94%A8%20stroke-dasharray%20%E6%A8%A1%E6%8B%9F%E5%8A%A0%E8%BD%BD%E4%B8%AD%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/README.md#1--demos1---使用-stroke-dasharray-模拟加载中动画效果)
+- [x] [0023. 【练习】使用 stroke-dasharray 模拟加载中动画效果](https://github.com/Tdahuyou/svg/tree/main/0023.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E4%BD%BF%E7%94%A8%20stroke-dasharray%20%E6%A8%A1%E6%8B%9F%E5%8A%A0%E8%BD%BD%E4%B8%AD%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/README.md) <!-- [locale](./0023.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E4%BD%BF%E7%94%A8%20stroke-dasharray%20%E6%A8%A1%E6%8B%9F%E5%8A%A0%E8%BD%BD%E4%B8%AD%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/README.md) -->  
+  - [1. 💻 demos.1 - 使用 stroke-dasharray 模拟加载中动画效果](https://github.com/Tdahuyou/svg/tree/main/0023.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E4%BD%BF%E7%94%A8%20stroke-dasharray%20%E6%A8%A1%E6%8B%9F%E5%8A%A0%E8%BD%BD%E4%B8%AD%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/README.md#1--demos1---使用-stroke-dasharray-模拟加载中动画效果)
   
 
 - [ ] [0015. 使用属性 fill、fill-opacity 设置填充样式](https://github.com/Tdahuyou/svg/tree/main/0015.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill%E3%80%81fill-opacity%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0015.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill%E3%80%81fill-opacity%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E6%A0%B7%E5%BC%8F/README.md) -->  
@@ -409,22 +411,22 @@
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0033.%20%E7%AE%80%E6%98%93%E5%8A%A8%E6%80%81%E5%9D%90%E6%A0%87%E7%B3%BB%E5%88%B6%E4%BD%9C/README.md#1--notes)
   
 
-- [ ] [0039. 练习 - 绘制静态折线图](https://github.com/Tdahuyou/svg/tree/main/0039.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E9%9D%99%E6%80%81%E6%8A%98%E7%BA%BF%E5%9B%BE/README.md) <!-- [locale](./0039.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E9%9D%99%E6%80%81%E6%8A%98%E7%BA%BF%E5%9B%BE/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0039.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E9%9D%99%E6%80%81%E6%8A%98%E7%BA%BF%E5%9B%BE/README.md#1--notes)
+- [ ] [0039. 【练习】绘制静态折线图](https://github.com/Tdahuyou/svg/tree/main/0039.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E9%9D%99%E6%80%81%E6%8A%98%E7%BA%BF%E5%9B%BE/README.md) <!-- [locale](./0039.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E9%9D%99%E6%80%81%E6%8A%98%E7%BA%BF%E5%9B%BE/README.md) -->  
+  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0039.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E9%9D%99%E6%80%81%E6%8A%98%E7%BA%BF%E5%9B%BE/README.md#1--notes)
   
 
-- [ ] [0038. 练习 - 绘制动态折线图](https://github.com/Tdahuyou/svg/tree/main/0038.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E6%8A%98%E7%BA%BF%E5%9B%BE/README.md) <!-- [locale](./0038.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E6%8A%98%E7%BA%BF%E5%9B%BE/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0038.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E6%8A%98%E7%BA%BF%E5%9B%BE/README.md#1--notes)
+- [ ] [0038. 【练习】绘制动态折线图](https://github.com/Tdahuyou/svg/tree/main/0038.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E6%8A%98%E7%BA%BF%E5%9B%BE/README.md) <!-- [locale](./0038.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E6%8A%98%E7%BA%BF%E5%9B%BE/README.md) -->  
+  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0038.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E6%8A%98%E7%BA%BF%E5%9B%BE/README.md#1--notes)
   
 
-- [ ] [0040. 练习 - 绘制柱状图](https://github.com/Tdahuyou/svg/tree/main/0040.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E6%9F%B1%E7%8A%B6%E5%9B%BE/README.md) <!-- [locale](./0040.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E6%9F%B1%E7%8A%B6%E5%9B%BE/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0040.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E6%9F%B1%E7%8A%B6%E5%9B%BE/README.md#1--notes)
+- [ ] [0040. 【练习】绘制柱状图](https://github.com/Tdahuyou/svg/tree/main/0040.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E6%9F%B1%E7%8A%B6%E5%9B%BE/README.md) <!-- [locale](./0040.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E6%9F%B1%E7%8A%B6%E5%9B%BE/README.md) -->  
+  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0040.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E6%9F%B1%E7%8A%B6%E5%9B%BE/README.md#1--notes)
   
 
-- [ ] [0042. 练习 - 绘制静态的饼图](https://github.com/Tdahuyou/svg/tree/main/0042.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E9%9D%99%E6%80%81%E7%9A%84%E9%A5%BC%E5%9B%BE/README.md) <!-- [locale](./0042.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E9%9D%99%E6%80%81%E7%9A%84%E9%A5%BC%E5%9B%BE/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0042.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E9%9D%99%E6%80%81%E7%9A%84%E9%A5%BC%E5%9B%BE/README.md#1--notes)
+- [ ] [0042. 【练习】绘制静态的饼图](https://github.com/Tdahuyou/svg/tree/main/0042.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E9%9D%99%E6%80%81%E7%9A%84%E9%A5%BC%E5%9B%BE/README.md) <!-- [locale](./0042.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E9%9D%99%E6%80%81%E7%9A%84%E9%A5%BC%E5%9B%BE/README.md) -->  
+  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0042.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E9%9D%99%E6%80%81%E7%9A%84%E9%A5%BC%E5%9B%BE/README.md#1--notes)
   
 
-- [ ] [0041. 练习 - 绘制动态饼图](https://github.com/Tdahuyou/svg/tree/main/0041.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md) <!-- [locale](./0041.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0041.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md#1--notes)
+- [ ] [0041. 【练习】绘制动态饼图](https://github.com/Tdahuyou/svg/tree/main/0041.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md) <!-- [locale](./0041.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md) -->  
+  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0041.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md#1--notes)
   

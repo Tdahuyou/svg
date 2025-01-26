@@ -159,7 +159,7 @@
   - [1. 💻 demos.1 - 使用 `<polygon>` 绘制多边形](https://github.com/Tdahuyou/svg/tree/main/0006.%20%E4%BD%BF%E7%94%A8%20polygon%20%E7%BB%98%E5%88%B6%E5%A4%9A%E8%BE%B9%E5%BD%A2/README.md#1--demos1---使用-polygon-绘制多边形)
    
 
-- [ ] [0003. 使用 circle 绘制圆形](https://github.com/Tdahuyou/svg/tree/main/0003.%20%E4%BD%BF%E7%94%A8%20circle%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BD%A2/README.md) <!-- [locale](./0003.%20%E4%BD%BF%E7%94%A8%20circle%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BD%A2/README.md) -->  
+- [x] [0003. 使用 circle 绘制圆形](https://github.com/Tdahuyou/svg/tree/main/0003.%20%E4%BD%BF%E7%94%A8%20circle%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BD%A2/README.md) <!-- [locale](./0003.%20%E4%BD%BF%E7%94%A8%20circle%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BD%A2/README.md) -->  
   - [1. 💻 demos.1 - 使用 circle 绘制圆形](https://github.com/Tdahuyou/svg/tree/main/0003.%20%E4%BD%BF%E7%94%A8%20circle%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BD%A2/README.md#1--demos1---使用-circle-绘制圆形)
   - [2. 💻 demos.2 - 使用 circle 绘制圆形](https://github.com/Tdahuyou/svg/tree/main/0003.%20%E4%BD%BF%E7%94%A8%20circle%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BD%A2/README.md#2--demos2---使用-circle-绘制圆形)
   - 绘制一个圆需要知道的信息：
@@ -167,7 +167,7 @@
     2. 绘制的圆的半径 `r`
   
 
-- [ ] [0004. 使用 ellipse 绘制椭圆形](https://github.com/Tdahuyou/svg/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md) <!-- [locale](./0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md) -->  
+- [x] [0004. 使用 ellipse 绘制椭圆形](https://github.com/Tdahuyou/svg/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md) <!-- [locale](./0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md) -->  
   - [1. 💻 demos.1 - 使用 `<ellipse>` 绘制椭圆形](https://github.com/Tdahuyou/svg/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md#1--demos1---使用-ellipse-绘制椭圆形)
   - 绘制椭圆需要知道的信息：
     1. 椭圆的圆心 cx cy
@@ -176,24 +176,24 @@
   - 如果 rx = ry，那么其实绘制的就是一个圆。
   
 
-- [ ] [0031. 使用属性 x、y、dx、dy 控制文本的绘制位置](https://github.com/Tdahuyou/svg/tree/main/0031.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20x%E3%80%81y%E3%80%81dx%E3%80%81dy%20%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E7%9A%84%E7%BB%98%E5%88%B6%E4%BD%8D%E7%BD%AE/README.md) <!-- [locale](./0031.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20x%E3%80%81y%E3%80%81dx%E3%80%81dy%20%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E7%9A%84%E7%BB%98%E5%88%B6%E4%BD%8D%E7%BD%AE/README.md) -->  
+- [x] [0031. 使用属性 x、y、dx、dy 控制文本的绘制位置](https://github.com/Tdahuyou/svg/tree/main/0031.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20x%E3%80%81y%E3%80%81dx%E3%80%81dy%20%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E7%9A%84%E7%BB%98%E5%88%B6%E4%BD%8D%E7%BD%AE/README.md) <!-- [locale](./0031.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20x%E3%80%81y%E3%80%81dx%E3%80%81dy%20%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E7%9A%84%E7%BB%98%E5%88%B6%E4%BD%8D%E7%BD%AE/README.md) -->  
   - [1. 💻 demos.1 - 使用属性 x、y、dx、dy 控制文本的绘制位置](https://github.com/Tdahuyou/svg/tree/main/0031.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20x%E3%80%81y%E3%80%81dx%E3%80%81dy%20%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E7%9A%84%E7%BB%98%E5%88%B6%E4%BD%8D%E7%BD%AE/README.md#1--demos1---使用属性-xydxdy-控制文本的绘制位置)
   - x、y、dx、dy 这些属性决定了绘制文本的位置。其中 x、y 属性决定了文本的左上角位置，而 dx、dy 属性决定了文本的偏移量。
   
 
-- [ ] [0029. 使用属性 text-anchor 设置文本的水平对齐方式](https://github.com/Tdahuyou/svg/tree/main/0029.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20text-anchor%20%E8%AE%BE%E7%BD%AE%E6%96%87%E6%9C%AC%E7%9A%84%E6%B0%B4%E5%B9%B3%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F/README.md) <!-- [locale](./0029.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20text-anchor%20%E8%AE%BE%E7%BD%AE%E6%96%87%E6%9C%AC%E7%9A%84%E6%B0%B4%E5%B9%B3%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F/README.md) -->  
+- [x] [0029. 使用属性 text-anchor 设置文本的水平对齐方式](https://github.com/Tdahuyou/svg/tree/main/0029.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20text-anchor%20%E8%AE%BE%E7%BD%AE%E6%96%87%E6%9C%AC%E7%9A%84%E6%B0%B4%E5%B9%B3%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F/README.md) <!-- [locale](./0029.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20text-anchor%20%E8%AE%BE%E7%BD%AE%E6%96%87%E6%9C%AC%E7%9A%84%E6%B0%B4%E5%B9%B3%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F/README.md) -->  
   - [1. 💻 demos.1 - 控制文本的水平对齐方式](https://github.com/Tdahuyou/svg/tree/main/0029.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20text-anchor%20%E8%AE%BE%E7%BD%AE%E6%96%87%E6%9C%AC%E7%9A%84%E6%B0%B4%E5%B9%B3%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F/README.md#1--demos1---控制文本的水平对齐方式)
   - 属性 `text-anchor` 用于设置文本的水平对齐方式。
   
 
-- [ ] [0030. 使用属性 textLength 约束文本长度](https://github.com/Tdahuyou/svg/tree/main/0030.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20textLength%20%E7%BA%A6%E6%9D%9F%E6%96%87%E6%9C%AC%E9%95%BF%E5%BA%A6/README.md) <!-- [locale](./0030.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20textLength%20%E7%BA%A6%E6%9D%9F%E6%96%87%E6%9C%AC%E9%95%BF%E5%BA%A6/README.md) -->  
+- [x] [0030. 使用属性 textLength 约束文本长度](https://github.com/Tdahuyou/svg/tree/main/0030.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20textLength%20%E7%BA%A6%E6%9D%9F%E6%96%87%E6%9C%AC%E9%95%BF%E5%BA%A6/README.md) <!-- [locale](./0030.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20textLength%20%E7%BA%A6%E6%9D%9F%E6%96%87%E6%9C%AC%E9%95%BF%E5%BA%A6/README.md) -->  
   - [1. 💻 demos.1 - 约束文本长度](https://github.com/Tdahuyou/svg/tree/main/0030.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20textLength%20%E7%BA%A6%E6%9D%9F%E6%96%87%E6%9C%AC%E9%95%BF%E5%BA%A6/README.md#1--demos1---约束文本长度)
   - 属性 `textLength` 用于设置文本的长度
     - 长度过大，文本拉伸
     - 长度过小，文本压缩
   
 
-- [ ] [0032. 通过 text 的其他属性来控制文本样式](https://github.com/Tdahuyou/svg/tree/main/0032.%20%E9%80%9A%E8%BF%87%20text%20%E7%9A%84%E5%85%B6%E4%BB%96%E5%B1%9E%E6%80%A7%E6%9D%A5%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0032.%20%E9%80%9A%E8%BF%87%20text%20%E7%9A%84%E5%85%B6%E4%BB%96%E5%B1%9E%E6%80%A7%E6%9D%A5%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F/README.md) -->  
+- [x] [0032. 通过 text 的其他属性来控制文本样式](https://github.com/Tdahuyou/svg/tree/main/0032.%20%E9%80%9A%E8%BF%87%20text%20%E7%9A%84%E5%85%B6%E4%BB%96%E5%B1%9E%E6%80%A7%E6%9D%A5%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0032.%20%E9%80%9A%E8%BF%87%20text%20%E7%9A%84%E5%85%B6%E4%BB%96%E5%B1%9E%E6%80%A7%E6%9D%A5%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F/README.md) -->  
   - [1. 💻 demos.1 - 设置文本样式](https://github.com/Tdahuyou/svg/tree/main/0032.%20%E9%80%9A%E8%BF%87%20text%20%E7%9A%84%E5%85%B6%E4%BB%96%E5%B1%9E%E6%80%A7%E6%9D%A5%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F/README.md#1--demos1---设置文本样式)
   - fill：设置字体颜色
   - font-size：设置文字大小
